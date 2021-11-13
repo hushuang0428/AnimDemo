@@ -1,0 +1,25 @@
+Begin Object Class=/Script/Engine.MaterialInstanceConstant Name="MI_SMG_Additions"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   ParameterStateId=C259E60640FE71175D0B459F95DC6FF5
+   Parent=Material'"/Game/MPS_V2/Game/Commons/Materials/Masters/M_Weapons.M_Weapons"'
+   ScalarParameterValues(0)=(ParameterInfo=(Name="Brithness"),ParameterValue=3.000000,ExpressionGUID=1B57109A4E0B108C2D4DE0A4FEE69CF9)
+   ScalarParameterValues(1)=(ParameterInfo=(Name="SaturationAmount"),ParameterValue=0.100000,ExpressionGUID=E72C545B4F24424A0099F0B75E9D6553)
+   ScalarParameterValues(2)=(ParameterInfo=(Name="RefractionDepthBias"))
+   TextureParameterValues(0)=(ParameterInfo=(Name="Albedo"),ParameterValue=Texture2D'"/Game/MPS_V2/Game/Weapons/Primary/SMG/Materials/Textures/Additions_A.Additions_A"',ExpressionGUID=4DD909E84B5B21B1E6134A893A061B36)
+   TextureParameterValues(1)=(ParameterInfo=(Name="Normal"),ParameterValue=Texture2D'"/Game/MPS_V2/Game/Weapons/Primary/SMG/Materials/Textures/Additions_N.Additions_N"',ExpressionGUID=A710C4B64FF3D718ED7A6395501401EC)
+   TextureParameterValues(2)=(ParameterInfo=(Name="Surface"),ParameterValue=Texture2D'"/Game/MPS_V2/Game/Weapons/Primary/SMG/Materials/Textures/Additions_S.Additions_S"',ExpressionGUID=FCE3A7224A93389B24596B99BA49C9BC)
+   BasePropertyOverrides=(OpacityMaskClipValue=0.333300)
+   ReferencedTextureGuids(0)=243E692E435F86C29F5120B1F3FF04DD
+   ReferencedTextureGuids(1)=9D1E7BA049E0BC91344CE0ABCB188027
+   ReferencedTextureGuids(2)=4611A41840E4349EE52A979E97F3785F
+   CachedReferencedTextures(0)=Texture2D'"/Game/MPS_V2/Level/Materials/Textures/Basics/Blank_A.Blank_A"'
+   CachedReferencedTextures(1)=Texture2D'"/Game/MPS_V2/Level/Materials/Textures/Basics/Blank_N.Blank_N"'
+   TextureStreamingDataVersion=1
+   TextureStreamingData(0)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="Additions_N",TextureReference=/Game/MPS_V2/Game/Weapons/Primary/SMG/Materials/Textures/Additions_N.Additions_N)
+   TextureStreamingData(1)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="Additions_S",TextureReference=/Game/MPS_V2/Game/Weapons/Primary/SMG/Materials/Textures/Additions_S.Additions_S)
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=CA48AAC64B40C56E9F93DEAD4AF722A1
+End Object

@@ -1,0 +1,24 @@
+Begin Object Class=/Script/Engine.MaterialInstanceConstant Name="MI_SMG"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   ParameterStateId=0A9FAFB34CDE8D7D9FEFE89750656E39
+   Parent=Material'"/Game/MPS_V2/Game/Commons/Materials/Masters/M_Weapons.M_Weapons"'
+   ScalarParameterValues(0)=(ParameterInfo=(Name="Brithness"),ParameterValue=3.000000,ExpressionGUID=1B57109A4E0B108C2D4DE0A4FEE69CF9)
+   ScalarParameterValues(1)=(ParameterInfo=(Name="RefractionDepthBias"))
+   TextureParameterValues(0)=(ParameterInfo=(Name="Albedo"),ParameterValue=Texture2D'"/Game/MPS_V2/Game/Weapons/Primary/SMG/Materials/Textures/SMG_A.SMG_A"',ExpressionGUID=4DD909E84B5B21B1E6134A893A061B36)
+   TextureParameterValues(1)=(ParameterInfo=(Name="Normal"),ParameterValue=Texture2D'"/Game/MPS_V2/Game/Weapons/Primary/SMG/Materials/Textures/SMG_N.SMG_N"',ExpressionGUID=A710C4B64FF3D718ED7A6395501401EC)
+   TextureParameterValues(2)=(ParameterInfo=(Name="Surface"),ParameterValue=Texture2D'"/Game/MPS_V2/Game/Weapons/Primary/SMG/Materials/Textures/SMG_S.SMG_S"',ExpressionGUID=FCE3A7224A93389B24596B99BA49C9BC)
+   BasePropertyOverrides=(OpacityMaskClipValue=0.333300)
+   ReferencedTextureGuids(0)=68B2D46548BDCA803BCABFA35A103C83
+   ReferencedTextureGuids(1)=394CA5494439A26D593A9C9522E6CD49
+   ReferencedTextureGuids(2)=B4CB6B4149F6EBDE891FB1AA7AFD237A
+   CachedReferencedTextures(0)=Texture2D'"/Game/MPS_V2/Level/Materials/Textures/Basics/Blank_A.Blank_A"'
+   CachedReferencedTextures(1)=Texture2D'"/Game/MPS_V2/Level/Materials/Textures/Basics/Blank_N.Blank_N"'
+   TextureStreamingDataVersion=1
+   TextureStreamingData(0)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="SMG_N",TextureReference=/Game/MPS_V2/Game/Weapons/Primary/SMG/Materials/Textures/SMG_N.SMG_N)
+   TextureStreamingData(1)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="SMG_S",TextureReference=/Game/MPS_V2/Game/Weapons/Primary/SMG/Materials/Textures/SMG_S.SMG_S)
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=9724FE13465DDF03E4422F8C453C8D3A
+End Object

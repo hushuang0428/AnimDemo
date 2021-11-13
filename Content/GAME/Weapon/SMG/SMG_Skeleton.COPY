@@ -1,0 +1,71 @@
+Begin Object Class=/Script/Engine.Skeleton Name="SMG_Skeleton"
+   Begin Object Class=/Script/Engine.SkeletalMeshSocket Name="SkeletalMeshSocket_0"
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalMeshSocket Name="SkeletalMeshSocket_1"
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalMeshSocket Name="SkeletalMeshSocket_2"
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalMeshSocket Name="SkeletalMeshSocket_3"
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalMeshSocket Name="SkeletalMeshSocket_4"
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalMeshSocket Name="SkeletalMeshSocket_5"
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalMeshSocket Name="SkeletalMeshSocket_6"
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalMeshSocket Name="SkeletalMeshSocket_7"
+   End Object
+   Begin Object Name="SkeletalMeshSocket_0"
+      SocketName="Muzzle"
+      BoneName="Weapon"
+      RelativeLocation=(X=0.000000,Y=37.183987,Z=3.395357)
+      RelativeRotation=(Pitch=0.000000,Yaw=90.000076,Roll=-0.000000)
+   End Object
+   Begin Object Name="SkeletalMeshSocket_1"
+      SocketName="Shells"
+      BoneName="Weapon"
+      RelativeLocation=(X=-1.586245,Y=20.863424,Z=6.425626)
+      RelativeRotation=(Pitch=54.999683,Yaw=-0.000000,Roll=-0.000000)
+   End Object
+   Begin Object Name="SkeletalMeshSocket_2"
+      SocketName="IronSights"
+      BoneName="Weapon"
+      RelativeLocation=(X=0.000000,Y=12.660325,Z=9.259270)
+   End Object
+   Begin Object Name="SkeletalMeshSocket_3"
+      SocketName="Optics"
+      BoneName="Weapon"
+      RelativeLocation=(X=-0.000023,Y=11.659600,Z=9.259451)
+   End Object
+   Begin Object Name="SkeletalMeshSocket_4"
+      SocketName="Siderail"
+      BoneName="Weapon"
+      RelativeLocation=(X=0.000001,Y=38.540955,Z=6.252455)
+   End Object
+   Begin Object Name="SkeletalMeshSocket_5"
+      SocketName="Barrel"
+      BoneName="Weapon"
+      RelativeLocation=(X=-0.000179,Y=36.643921,Z=3.380594)
+   End Object
+   Begin Object Name="SkeletalMeshSocket_6"
+      SocketName="Underbarrel"
+      BoneName="Weapon"
+      RelativeLocation=(X=-0.000015,Y=33.756535,Z=0.311233)
+   End Object
+   Begin Object Name="SkeletalMeshSocket_7"
+      SocketName="Melee"
+      BoneName="Weapon"
+      RelativeLocation=(X=0.000412,Y=58.891747,Z=3.506961)
+   End Object
+   BoneTree(8)=()
+   VirtualBoneGuid=5A84EFEF4C69F3176F7DE19596DE6DB5
+   Sockets(0)=SkeletalMeshSocket'"SkeletalMeshSocket_0"'
+   Sockets(1)=SkeletalMeshSocket'"SkeletalMeshSocket_1"'
+   Sockets(2)=SkeletalMeshSocket'"SkeletalMeshSocket_2"'
+   Sockets(3)=SkeletalMeshSocket'"SkeletalMeshSocket_3"'
+   Sockets(4)=SkeletalMeshSocket'"SkeletalMeshSocket_4"'
+   Sockets(5)=SkeletalMeshSocket'"SkeletalMeshSocket_5"'
+   Sockets(6)=SkeletalMeshSocket'"SkeletalMeshSocket_6"'
+   Sockets(7)=SkeletalMeshSocket'"SkeletalMeshSocket_7"'
+   SlotGroups(0)=(SlotNames=("DefaultSlot"))
+End Object
