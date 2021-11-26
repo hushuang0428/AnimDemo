@@ -1,0 +1,2008 @@
+Begin Object Class=/Script/Engine.ParticleSystem Name="P_ImpactHit"
+   Begin Object Class=/Script/Engine.Texture2D Name="ThumbnailTexture"
+      Begin Object Class=/Script/Engine.AssetImportData Name="AssetImportData"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleAccelerationDrag Name="ParticleModuleAccelerationDrag_0"
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="DistributionDragCoefficient"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleAccelerationDrag Name="ParticleModuleAccelerationDrag_1"
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="DistributionDragCoefficient"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleAccelerationDrag Name="ParticleModuleAccelerationDrag_2"
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="DistributionDragCoefficient"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleAccelerationDrag Name="ParticleModuleAccelerationDrag_3"
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="DistributionDragCoefficient"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleCollisionGPU Name="ParticleModuleCollisionGPU_0"
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="ResilienceDistribution"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="ResilienceScaleOverLifeDistribution"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleColor Name="ParticleModuleColor_0"
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="DistributionStartAlpha"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionVectorConstant Name="DistributionVectorConstant_0"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleColor Name="ParticleModuleColor_1"
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="DistributionStartAlpha"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionVectorConstant Name="DistributionVectorConstant_2"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleColor Name="ParticleModuleColor_11"
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="DistributionStartAlpha"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionVectorConstant Name="DistributionVectorConstant_2"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleColor Name="ParticleModuleColor_16"
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="DistributionStartAlpha"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionVectorConstant Name="DistributionVectorConstant_2"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleColor Name="ParticleModuleColor_2"
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="DistributionStartAlpha"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionVectorConstant Name="DistributionVectorConstant_2"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleColor Name="ParticleModuleColor_3"
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="DistributionStartAlpha"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionVectorConstant Name="DistributionVectorConstant_0"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleLifetime Name="ParticleModuleLifetime_1"
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="DistributionFloatConstant_0"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleLocationPrimitiveSphere Name="ParticleModuleLocationPrimitiveSphere_0"
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="DistributionStartRadius"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionFloatUniform Name="DistributionFloatUniform_1"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionVectorConstant Name="DistributionStartLocation"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleLocationPrimitiveSphere Name="ParticleModuleLocationPrimitiveSphere_1"
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="DistributionStartRadius"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionFloatUniform Name="DistributionFloatUniform_1"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionVectorConstant Name="DistributionStartLocation"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleParameterDynamic Name="ParticleModuleParameterDynamic_2"
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="DistributionParam4"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionFloatConstantCurve Name="DistributionFloatConstantCurve_0"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionFloatConstantCurve Name="DistributionFloatConstantCurve_3"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionFloatConstantCurve Name="DistributionFloatConstantCurve_4"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleParameterDynamic Name="ParticleModuleParameterDynamic_4"
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="DistributionParam4"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionFloatConstantCurve Name="DistributionFloatConstantCurve_0"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionFloatConstantCurve Name="DistributionFloatConstantCurve_3"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionFloatConstantCurve Name="DistributionFloatConstantCurve_4"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleParameterDynamic Name="ParticleModuleParameterDynamic_6"
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="DistributionParam4"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionFloatConstantCurve Name="DistributionFloatConstantCurve_0"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionFloatConstantCurve Name="DistributionFloatConstantCurve_3"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionFloatConstantCurve Name="DistributionFloatConstantCurve_4"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleRequired Name="ParticleModuleRequired_0"
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="RequiredDistributionSpawnRate"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleRequired Name="ParticleModuleRequired_1"
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="RequiredDistributionSpawnRate"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleRequired Name="ParticleModuleRequired_14"
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="RequiredDistributionSpawnRate"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleRequired Name="ParticleModuleRequired_16"
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="RequiredDistributionSpawnRate"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleRequired Name="ParticleModuleRequired_2"
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="RequiredDistributionSpawnRate"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleRequired Name="ParticleModuleRequired_3"
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="RequiredDistributionSpawnRate"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleSpawn Name="ParticleModuleSpawn_0"
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="BurstScaleDistribution"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="RequiredDistributionSpawnRate"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="RequiredDistributionSpawnRateScale"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleSpawn Name="ParticleModuleSpawn_1"
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="BurstScaleDistribution"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="RequiredDistributionSpawnRateScale"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionFloatUniform Name="DistributionFloatUniform_2"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleSpawn Name="ParticleModuleSpawn_10"
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="BurstScaleDistribution"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="RequiredDistributionSpawnRate"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="RequiredDistributionSpawnRateScale"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleSpawn Name="ParticleModuleSpawn_12"
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="BurstScaleDistribution"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="RequiredDistributionSpawnRate"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="RequiredDistributionSpawnRateScale"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleSpawn Name="ParticleModuleSpawn_16"
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="BurstScaleDistribution"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="RequiredDistributionSpawnRateScale"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionFloatUniform Name="DistributionFloatUniform_2"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleSpawn Name="ParticleModuleSpawn_2"
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="BurstScaleDistribution"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="DistributionFloatConstant_1"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="RequiredDistributionSpawnRateScale"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleSpawn Name="ParticleModuleSpawn_21"
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="BurstScaleDistribution"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="DistributionFloatConstant_1"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="RequiredDistributionSpawnRateScale"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleSpawn Name="ParticleModuleSpawn_3"
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="BurstScaleDistribution"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="DistributionFloatConstant_1"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="RequiredDistributionSpawnRateScale"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleSpawn Name="ParticleModuleSpawn_4"
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="BurstScaleDistribution"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="DistributionFloatConstant_1"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="RequiredDistributionSpawnRateScale"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleSpawn Name="ParticleModuleSpawn_6"
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="BurstScaleDistribution"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="DistributionFloatConstant_1"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="RequiredDistributionSpawnRateScale"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleSpawn Name="ParticleModuleSpawn_7"
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="BurstScaleDistribution"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="DistributionFloatConstant_1"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="RequiredDistributionSpawnRateScale"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleCameraOffset Name="ParticleModuleCameraOffset_1"
+      Begin Object Class=/Script/Engine.DistributionFloatConstantCurve Name="DistributionFloatConstantCurve_0"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleCameraOffset Name="ParticleModuleCameraOffset_2"
+      Begin Object Class=/Script/Engine.DistributionFloatConstantCurve Name="DistributionFloatConstantCurve_0"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleCameraOffset Name="ParticleModuleCameraOffset_4"
+      Begin Object Class=/Script/Engine.DistributionFloatConstantCurve Name="DistributionFloatConstantCurve_0"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleColorScaleOverLife Name="ParticleModuleColorScaleOverLife_1"
+      Begin Object Class=/Script/Engine.DistributionFloatConstantCurve Name="DistributionFloatConstantCurve_0"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionVectorConstant Name="DistributionVectorConstant_0"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleColorScaleOverLife Name="ParticleModuleColorScaleOverLife_11"
+      Begin Object Class=/Script/Engine.DistributionFloatConstantCurve Name="DistributionFloatConstantCurve_2"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionVectorConstantCurve Name="DistributionVectorConstantCurve_0"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleColorScaleOverLife Name="ParticleModuleColorScaleOverLife_2"
+      Begin Object Class=/Script/Engine.DistributionFloatConstantCurve Name="DistributionFloatConstantCurve_2"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionVectorConstantCurve Name="DistributionVectorConstantCurve_0"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleColorScaleOverLife Name="ParticleModuleColorScaleOverLife_4"
+      Begin Object Class=/Script/Engine.DistributionFloatConstantCurve Name="DistributionFloatConstantCurve_2"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionVectorConstantCurve Name="DistributionVectorConstantCurve_0"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleColorScaleOverLife Name="ParticleModuleColorScaleOverLife_6"
+      Begin Object Class=/Script/Engine.DistributionFloatConstantCurve Name="DistributionFloatConstantCurve_0"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionVectorConstant Name="DistributionVectorConstant_0"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleColorScaleOverLife Name="ParticleModuleColorScaleOverLife_8"
+      Begin Object Class=/Script/Engine.DistributionFloatConstantCurve Name="DistributionFloatConstantCurve_2"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionVectorConstantCurve Name="DistributionVectorConstantCurve_0"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleSubUV Name="ParticleModuleSubUV_1"
+      Begin Object Class=/Script/Engine.DistributionFloatConstantCurve Name="DistributionFloatConstantCurve_1"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleSubUV Name="ParticleModuleSubUV_16"
+      Begin Object Class=/Script/Engine.DistributionFloatConstantCurve Name="DistributionFloatConstantCurve_1"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleSubUV Name="ParticleModuleSubUV_2"
+      Begin Object Class=/Script/Engine.DistributionFloatConstantCurve Name="DistributionFloatConstantCurve_1"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleSubUV Name="ParticleModuleSubUV_3"
+      Begin Object Class=/Script/Engine.DistributionFloatConstantCurve Name="DistributionFloatConstantCurve_1"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleColorScaleOverLife Name="ParticleModuleColorScaleOverLife_12"
+      Begin Object Class=/Script/Engine.DistributionFloatParticleParameter Name="DistributionFloatParticleParameter_0"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionVectorParticleParameter Name="DistributionVectorParticleParameter_0"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleColorScaleOverLife Name="ParticleModuleColorScaleOverLife_3"
+      Begin Object Class=/Script/Engine.DistributionFloatParticleParameter Name="DistributionFloatParticleParameter_0"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionVectorParticleParameter Name="DistributionVectorParticleParameter_0"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleColorScaleOverLife Name="ParticleModuleColorScaleOverLife_5"
+      Begin Object Class=/Script/Engine.DistributionFloatParticleParameter Name="DistributionFloatParticleParameter_0"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionVectorParticleParameter Name="DistributionVectorParticleParameter_0"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleColorScaleOverLife Name="ParticleModuleColorScaleOverLife_9"
+      Begin Object Class=/Script/Engine.DistributionFloatParticleParameter Name="DistributionFloatParticleParameter_0"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionVectorParticleParameter Name="DistributionVectorParticleParameter_0"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleLifetime Name="ParticleModuleLifetime_0"
+      Begin Object Class=/Script/Engine.DistributionFloatUniform Name="DistributionLifetime"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleLifetime Name="ParticleModuleLifetime_16"
+      Begin Object Class=/Script/Engine.DistributionFloatUniform Name="DistributionFloatUniform_0"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleLifetime Name="ParticleModuleLifetime_17"
+      Begin Object Class=/Script/Engine.DistributionFloatUniform Name="DistributionFloatUniform_1"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleLifetime Name="ParticleModuleLifetime_2"
+      Begin Object Class=/Script/Engine.DistributionFloatUniform Name="DistributionFloatUniform_0"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleLifetime Name="ParticleModuleLifetime_3"
+      Begin Object Class=/Script/Engine.DistributionFloatUniform Name="DistributionLifetime"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleRotation Name="ParticleModuleRotation_0"
+      Begin Object Class=/Script/Engine.DistributionFloatUniform Name="DistributionStartRotation"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleRotation Name="ParticleModuleRotation_1"
+      Begin Object Class=/Script/Engine.DistributionFloatUniform Name="DistributionStartRotation"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleRotation Name="ParticleModuleRotation_12"
+      Begin Object Class=/Script/Engine.DistributionFloatUniform Name="DistributionStartRotation"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleRotation Name="ParticleModuleRotation_8"
+      Begin Object Class=/Script/Engine.DistributionFloatUniform Name="DistributionStartRotation"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleVelocity Name="ParticleModuleVelocity_0"
+      Begin Object Class=/Script/Engine.DistributionFloatUniform Name="DistributionStartVelocityRadial"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionVectorUniform Name="DistributionStartVelocity"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleVelocity Name="ParticleModuleVelocity_1"
+      Begin Object Class=/Script/Engine.DistributionFloatUniform Name="DistributionStartVelocityRadial"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionVectorUniform Name="DistributionStartVelocity"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleVelocity Name="ParticleModuleVelocity_10"
+      Begin Object Class=/Script/Engine.DistributionFloatUniform Name="DistributionStartVelocityRadial"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionVectorUniform Name="DistributionStartVelocity"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleVelocity Name="ParticleModuleVelocity_2"
+      Begin Object Class=/Script/Engine.DistributionFloatUniform Name="DistributionStartVelocityRadial"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionVectorUniform Name="DistributionStartVelocity"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleVelocity Name="ParticleModuleVelocity_3"
+      Begin Object Class=/Script/Engine.DistributionFloatUniform Name="DistributionStartVelocityRadial"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionVectorUniform Name="DistributionStartVelocity"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleVelocity Name="ParticleModuleVelocity_4"
+      Begin Object Class=/Script/Engine.DistributionFloatUniform Name="DistributionStartVelocityRadial"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionVectorUniform Name="DistributionStartVelocity"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleSize Name="ParticleModuleSize_0"
+      Begin Object Class=/Script/Engine.DistributionVectorConstant Name="DistributionVectorConstant_1"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleSize Name="ParticleModuleSize_3"
+      Begin Object Class=/Script/Engine.DistributionVectorConstant Name="DistributionVectorConstant_1"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleSizeMultiplyLife Name="ParticleModuleSizeMultiplyLife_13"
+      Begin Object Class=/Script/Engine.DistributionVectorConstantCurve Name="DistributionVectorConstantCurve_1"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleSizeMultiplyLife Name="ParticleModuleSizeMultiplyLife_2"
+      Begin Object Class=/Script/Engine.DistributionVectorConstantCurve Name="DistributionVectorConstantCurve_1"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleSizeMultiplyLife Name="ParticleModuleSizeMultiplyLife_3"
+      Begin Object Class=/Script/Engine.DistributionVectorConstantCurve Name="DistributionVectorConstantCurve_1"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleSizeMultiplyLife Name="ParticleModuleSizeMultiplyLife_6"
+      Begin Object Class=/Script/Engine.DistributionVectorConstantCurve Name="DistributionVectorConstantCurve_1"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleAcceleration Name="ParticleModuleAcceleration_0"
+      Begin Object Class=/Script/Engine.DistributionVectorUniform Name="DistributionAcceleration"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleAcceleration Name="ParticleModuleAcceleration_1"
+      Begin Object Class=/Script/Engine.DistributionVectorUniform Name="DistributionAcceleration"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleAcceleration Name="ParticleModuleAcceleration_2"
+      Begin Object Class=/Script/Engine.DistributionVectorUniform Name="DistributionAcceleration"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleAcceleration Name="ParticleModuleAcceleration_4"
+      Begin Object Class=/Script/Engine.DistributionVectorUniform Name="DistributionAcceleration"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleLocation Name="ParticleModuleLocation_0"
+      Begin Object Class=/Script/Engine.DistributionVectorUniform Name="DistributionStartLocation"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleLocation Name="ParticleModuleLocation_1"
+      Begin Object Class=/Script/Engine.DistributionVectorUniform Name="DistributionStartLocation"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleLocation Name="ParticleModuleLocation_2"
+      Begin Object Class=/Script/Engine.DistributionVectorUniform Name="DistributionStartLocation"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleLocation Name="ParticleModuleLocation_3"
+      Begin Object Class=/Script/Engine.DistributionVectorUniform Name="DistributionStartLocation"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleSize Name="ParticleModuleSize_1"
+      Begin Object Class=/Script/Engine.DistributionVectorUniform Name="DistributionStartSize"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleSize Name="ParticleModuleSize_16"
+      Begin Object Class=/Script/Engine.DistributionVectorUniform Name="DistributionStartSize"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleSize Name="ParticleModuleSize_19"
+      Begin Object Class=/Script/Engine.DistributionVectorUniform Name="DistributionStartSize"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleSize Name="ParticleModuleSize_2"
+      Begin Object Class=/Script/Engine.DistributionVectorUniform Name="DistributionStartSize"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.InterpCurveEdSetup Name="InterpCurveEdSetup_0"
+   End Object
+   Begin Object Class=/Script/Engine.ParticleSpriteEmitter Name="ParticleSpriteEmitter_0"
+      Begin Object Class=/Script/Engine.ParticleLODLevel Name="ParticleLODLevel_0"
+      End Object
+      Begin Object Class=/Script/Engine.ParticleLODLevel Name="ParticleLODLevel_17"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleSpriteEmitter Name="ParticleSpriteEmitter_1"
+      Begin Object Class=/Script/Engine.ParticleLODLevel Name="ParticleLODLevel_13"
+      End Object
+      Begin Object Class=/Script/Engine.ParticleLODLevel Name="ParticleLODLevel_2"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleSpriteEmitter Name="ParticleSpriteEmitter_14"
+      Begin Object Class=/Script/Engine.ParticleLODLevel Name="ParticleLODLevel_11"
+      End Object
+      Begin Object Class=/Script/Engine.ParticleLODLevel Name="ParticleLODLevel_12"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleSpriteEmitter Name="ParticleSpriteEmitter_16"
+      Begin Object Class=/Script/Engine.ParticleLODLevel Name="ParticleLODLevel_0"
+      End Object
+      Begin Object Class=/Script/Engine.ParticleLODLevel Name="ParticleLODLevel_16"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleSpriteEmitter Name="ParticleSpriteEmitter_2"
+      Begin Object Class=/Script/Engine.ParticleLODLevel Name="ParticleLODLevel_15"
+      End Object
+      Begin Object Class=/Script/Engine.ParticleLODLevel Name="ParticleLODLevel_4"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleSpriteEmitter Name="ParticleSpriteEmitter_3"
+      Begin Object Class=/Script/Engine.ParticleLODLevel Name="ParticleLODLevel_0"
+      End Object
+      Begin Object Class=/Script/Engine.ParticleLODLevel Name="ParticleLODLevel_1"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleAccelerationConstant Name="ParticleModuleAccelerationConstant_0"
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleAccelerationConstant Name="ParticleModuleAccelerationConstant_2"
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleSizeScaleBySpeed Name="ParticleModuleSizeScaleBySpeed_0"
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleTypeDataGpu Name="ParticleModuleTypeDataGpu_0"
+   End Object
+   Begin Object Name="ThumbnailTexture"
+      Begin Object Name="AssetImportData"
+      End Object
+      ImportedSize=(X=512,Y=512)
+      Source=(Id=4539DE35424E805A78EFD092F1A61B2C,SizeX=512,SizeY=512,NumSlices=1,NumMips=1,bPNGCompressed=True,Format=TSF_BGRA8)
+      LightingGuid=26E162C64E98849103C60F8B481CA773
+      AssetImportData=AssetImportData'"AssetImportData"'
+      CompressionNoAlpha=True
+      bUseLegacyGamma=True
+   End Object
+   Begin Object Name="ParticleModuleAccelerationDrag_0"
+      Begin Object Name="DistributionDragCoefficient"
+         Constant=0.500000
+         bBakedDataSuccesfully=True
+      End Object
+      DragCoefficientRaw=(MinValue=0.500000,MaxValue=0.500000,Distribution=DistributionFloatConstant'"DistributionDragCoefficient"',Table=(Values=(0.500000),Op=1,EntryCount=1,EntryStride=1))
+      bAlwaysInWorldSpace=True
+      LODValidity=3
+      ModuleEditorColor=(B=0,G=112,R=210,A=255)
+   End Object
+   Begin Object Name="ParticleModuleAccelerationDrag_1"
+      Begin Object Name="DistributionDragCoefficient"
+         Constant=0.500000
+         bBakedDataSuccesfully=True
+      End Object
+      DragCoefficientRaw=(MinValue=0.500000,MaxValue=0.500000,Distribution=DistributionFloatConstant'"DistributionDragCoefficient"',Table=(Values=(0.500000),Op=1,EntryCount=1,EntryStride=1))
+      bAlwaysInWorldSpace=True
+      LODValidity=3
+      ModuleEditorColor=(B=149,G=188,R=0,A=255)
+   End Object
+   Begin Object Name="ParticleModuleAccelerationDrag_2"
+      Begin Object Name="DistributionDragCoefficient"
+         Constant=0.500000
+         bBakedDataSuccesfully=True
+      End Object
+      DragCoefficientRaw=(MinValue=0.500000,MaxValue=0.500000,Distribution=DistributionFloatConstant'"DistributionDragCoefficient"',Table=(Values=(0.500000),Op=1,EntryCount=1,EntryStride=1))
+      bAlwaysInWorldSpace=True
+      LODValidity=3
+      ModuleEditorColor=(B=179,G=0,R=161,A=255)
+   End Object
+   Begin Object Name="ParticleModuleAccelerationDrag_3"
+      Begin Object Name="DistributionDragCoefficient"
+         Constant=0.500000
+         bBakedDataSuccesfully=True
+      End Object
+      DragCoefficientRaw=(MinValue=0.500000,MaxValue=0.500000,Distribution=DistributionFloatConstant'"DistributionDragCoefficient"',Table=(Values=(0.500000),Op=1,EntryCount=1,EntryStride=1))
+      bAlwaysInWorldSpace=True
+      LODValidity=3
+      ModuleEditorColor=(B=156,G=0,R=183,A=255)
+   End Object
+   Begin Object Name="ParticleModuleCollisionGPU_0"
+      Begin Object Name="ResilienceDistribution"
+         Constant=0.100000
+      End Object
+      Begin Object Name="ResilienceScaleOverLifeDistribution"
+         Constant=1.000000
+      End Object
+      Resilience=(Distribution=DistributionFloatConstant'"ResilienceDistribution"')
+      ResilienceScaleOverLife=(Distribution=DistributionFloatConstant'"ResilienceScaleOverLifeDistribution"')
+      Friction=0.250000
+      LODValidity=3
+      ModuleEditorColor=(B=143,G=192,R=0,A=255)
+   End Object
+   Begin Object Name="ParticleModuleColor_0"
+      Begin Object Name="DistributionStartAlpha"
+         Constant=1.000000
+         bBakedDataSuccesfully=True
+      End Object
+      Begin Object Name="DistributionVectorConstant_0"
+         Constant=(X=10.000000,Y=5.000000,Z=2.000000)
+         bIsDirty=False
+         bBakedDataSuccesfully=True
+      End Object
+      StartColor=(MinValue=2.000000,MaxValue=10.000000,MinValueVec=(X=10.000000,Y=5.000000,Z=2.000000),MaxValueVec=(X=10.000000,Y=5.000000,Z=2.000000),Distribution=DistributionVectorConstant'"DistributionVectorConstant_0"',Table=(Values=(10.000000,5.000000,2.000000),Op=1,EntryCount=1,EntryStride=3))
+      StartAlpha=(MinValue=1.000000,MaxValue=1.000000,Distribution=DistributionFloatConstant'"DistributionStartAlpha"',Table=(Values=(1.000000),Op=1,EntryCount=1,EntryStride=1))
+      LODValidity=3
+      ModuleEditorColor=(B=80,G=0,R=222,A=255)
+   End Object
+   Begin Object Name="ParticleModuleColor_1"
+      Begin Object Name="DistributionStartAlpha"
+         Constant=0.500000
+         bBakedDataSuccesfully=True
+      End Object
+      Begin Object Name="DistributionVectorConstant_2"
+         Constant=(X=1.000000,Y=1.000000,Z=1.000000)
+         bIsDirty=False
+         bBakedDataSuccesfully=True
+      End Object
+      StartColor=(MinValue=1.000000,MaxValue=1.000000,MinValueVec=(X=1.000000,Y=1.000000,Z=1.000000),MaxValueVec=(X=1.000000,Y=1.000000,Z=1.000000),Distribution=DistributionVectorConstant'"DistributionVectorConstant_2"',Table=(Values=(1.000000,1.000000,1.000000),Op=1,EntryCount=1,EntryStride=3))
+      StartAlpha=(MinValue=0.500000,MaxValue=0.500000,Distribution=DistributionFloatConstant'"DistributionStartAlpha"',Table=(Values=(0.500000),Op=1,EntryCount=1,EntryStride=1))
+      LODValidity=3
+      ModuleEditorColor=(B=30,G=231,R=0,A=255)
+   End Object
+   Begin Object Name="ParticleModuleColor_11"
+      Begin Object Name="DistributionStartAlpha"
+         Constant=4.000000
+         bBakedDataSuccesfully=True
+      End Object
+      Begin Object Name="DistributionVectorConstant_2"
+         Constant=(X=0.400000,Y=0.500000,Z=0.600000)
+         bIsDirty=False
+         bBakedDataSuccesfully=True
+      End Object
+      StartColor=(MinValue=0.400000,MaxValue=0.600000,MinValueVec=(X=0.400000,Y=0.500000,Z=0.600000),MaxValueVec=(X=0.400000,Y=0.500000,Z=0.600000),Distribution=DistributionVectorConstant'"DistributionVectorConstant_2"',Table=(Values=(0.400000,0.500000,0.600000),Op=1,EntryCount=1,EntryStride=3))
+      StartAlpha=(MinValue=4.000000,MaxValue=4.000000,Distribution=DistributionFloatConstant'"DistributionStartAlpha"',Table=(Values=(4.000000),Op=1,EntryCount=1,EntryStride=1))
+      LODValidity=3
+      ModuleEditorColor=(B=222,G=0,R=84,A=255)
+   End Object
+   Begin Object Name="ParticleModuleColor_16"
+      Begin Object Name="DistributionStartAlpha"
+         Constant=0.100000
+         bBakedDataSuccesfully=True
+      End Object
+      Begin Object Name="DistributionVectorConstant_2"
+         Constant=(X=0.500000,Y=0.500000,Z=0.500000)
+         bIsDirty=False
+         bBakedDataSuccesfully=True
+      End Object
+      StartColor=(MinValue=0.500000,MaxValue=0.500000,MinValueVec=(X=0.500000,Y=0.500000,Z=0.500000),MaxValueVec=(X=0.500000,Y=0.500000,Z=0.500000),Distribution=DistributionVectorConstant'"DistributionVectorConstant_2"',Table=(Values=(0.500000,0.500000,0.500000),Op=1,EntryCount=1,EntryStride=3))
+      StartAlpha=(MinValue=0.100000,MaxValue=0.100000,Distribution=DistributionFloatConstant'"DistributionStartAlpha"',Table=(Values=(0.100000),Op=1,EntryCount=1,EntryStride=1))
+      LODValidity=3
+      ModuleEditorColor=(B=204,G=0,R=126,A=255)
+   End Object
+   Begin Object Name="ParticleModuleColor_2"
+      Begin Object Name="DistributionStartAlpha"
+         Constant=0.125000
+         bBakedDataSuccesfully=True
+      End Object
+      Begin Object Name="DistributionVectorConstant_2"
+         Constant=(X=0.500000,Y=0.500000,Z=0.500000)
+         bIsDirty=False
+         bBakedDataSuccesfully=True
+      End Object
+      StartColor=(MinValue=0.500000,MaxValue=0.500000,MinValueVec=(X=0.500000,Y=0.500000,Z=0.500000),MaxValueVec=(X=0.500000,Y=0.500000,Z=0.500000),Distribution=DistributionVectorConstant'"DistributionVectorConstant_2"',Table=(Values=(0.500000,0.500000,0.500000),Op=1,EntryCount=1,EntryStride=3))
+      StartAlpha=(MinValue=0.125000,MaxValue=0.125000,Distribution=DistributionFloatConstant'"DistributionStartAlpha"',Table=(Values=(0.125000),Op=1,EntryCount=1,EntryStride=1))
+      LODValidity=3
+      ModuleEditorColor=(B=0,G=209,R=115,A=255)
+   End Object
+   Begin Object Name="ParticleModuleColor_3"
+      Begin Object Name="DistributionStartAlpha"
+         Constant=1.000000
+         bBakedDataSuccesfully=True
+      End Object
+      Begin Object Name="DistributionVectorConstant_0"
+         Constant=(X=10.000000,Y=5.000000,Z=2.000000)
+         bIsDirty=False
+         bBakedDataSuccesfully=True
+      End Object
+      StartColor=(MinValue=2.000000,MaxValue=10.000000,MinValueVec=(X=10.000000,Y=5.000000,Z=2.000000),MaxValueVec=(X=10.000000,Y=5.000000,Z=2.000000),Distribution=DistributionVectorConstant'"DistributionVectorConstant_0"',Table=(Values=(10.000000,5.000000,2.000000),Op=1,EntryCount=1,EntryStride=3))
+      StartAlpha=(MinValue=1.000000,MaxValue=1.000000,Distribution=DistributionFloatConstant'"DistributionStartAlpha"',Table=(Values=(1.000000),Op=1,EntryCount=1,EntryStride=1))
+      LODValidity=3
+      ModuleEditorColor=(B=118,G=207,R=0,A=255)
+   End Object
+   Begin Object Name="ParticleModuleLifetime_1"
+      Begin Object Name="DistributionFloatConstant_0"
+         Constant=0.300000
+         bBakedDataSuccesfully=True
+      End Object
+      Lifetime=(MinValue=0.300000,MaxValue=0.300000,Distribution=DistributionFloatConstant'"DistributionFloatConstant_0"',Table=(Values=(0.300000),Op=1,EntryCount=1,EntryStride=1))
+      LODValidity=3
+      ModuleEditorColor=(B=204,G=0,R=126,A=255)
+   End Object
+   Begin Object Name="ParticleModuleLocationPrimitiveSphere_0"
+      Begin Object Name="DistributionStartRadius"
+         Constant=20.000000
+         bBakedDataSuccesfully=True
+      End Object
+      Begin Object Name="DistributionFloatUniform_1"
+         Min=4.000000
+         Max=20.000000
+         bBakedDataSuccesfully=True
+      End Object
+      Begin Object Name="DistributionStartLocation"
+         bIsDirty=False
+         bBakedDataSuccesfully=True
+      End Object
+      StartRadius=(MinValue=20.000000,MaxValue=20.000000,Distribution=DistributionFloatConstant'"DistributionStartRadius"',Table=(Values=(20.000000),Op=1,EntryCount=1,EntryStride=1))
+      Negative_X=False
+      SurfaceOnly=True
+      Velocity=True
+      VelocityScale=(MinValue=4.000000,MaxValue=20.000000,Distribution=DistributionFloatUniform'"DistributionFloatUniform_1"',Table=(Values=(4.000000,20.000000),Op=2,EntryCount=1,EntryStride=2,SubEntryStride=1))
+      StartLocation=(Distribution=DistributionVectorConstant'"DistributionStartLocation"',Table=(Values=(0.000000,0.000000,0.000000),Op=1,EntryCount=1,EntryStride=3))
+      LODValidity=3
+      ModuleEditorColor=(B=171,G=0,R=169,A=255)
+   End Object
+   Begin Object Name="ParticleModuleLocationPrimitiveSphere_1"
+      Begin Object Name="DistributionStartRadius"
+         Constant=20.000000
+         bBakedDataSuccesfully=True
+      End Object
+      Begin Object Name="DistributionFloatUniform_1"
+         Min=4.000000
+         Max=20.000000
+         bBakedDataSuccesfully=True
+      End Object
+      Begin Object Name="DistributionStartLocation"
+         bIsDirty=False
+         bBakedDataSuccesfully=True
+      End Object
+      StartRadius=(MinValue=20.000000,MaxValue=20.000000,Distribution=DistributionFloatConstant'"DistributionStartRadius"',Table=(Values=(20.000000),Op=1,EntryCount=1,EntryStride=1))
+      Negative_X=False
+      SurfaceOnly=True
+      Velocity=True
+      VelocityScale=(MinValue=4.000000,MaxValue=20.000000,Distribution=DistributionFloatUniform'"DistributionFloatUniform_1"',Table=(Values=(4.000000,20.000000),Op=2,EntryCount=1,EntryStride=2,SubEntryStride=1))
+      StartLocation=(Distribution=DistributionVectorConstant'"DistributionStartLocation"',Table=(Values=(0.000000,0.000000,0.000000),Op=1,EntryCount=1,EntryStride=3))
+      LODValidity=3
+      ModuleEditorColor=(B=0,G=112,R=210,A=255)
+   End Object
+   Begin Object Name="ParticleModuleParameterDynamic_2"
+      Begin Object Name="DistributionParam4"
+         Constant=-0.012500
+         bBakedDataSuccesfully=True
+      End Object
+      Begin Object Name="DistributionFloatConstantCurve_0"
+         ConstantCurve=(Points=((OutVal=2.162376,InterpMode=CIM_CurveAutoClamped),(InVal=0.250000,OutVal=0.250000,ArriveTangent=-12.011023,LeaveTangent=-1.021522,InterpMode=CIM_CurveBreak),(InVal=1.000000,InterpMode=CIM_CurveAutoClamped)))
+         bBakedDataSuccesfully=True
+      End Object
+      Begin Object Name="DistributionFloatConstantCurve_3"
+         ConstantCurve=(Points=((OutVal=0.060000),(OutVal=0.500000)))
+         bBakedDataSuccesfully=True
+      End Object
+      Begin Object Name="DistributionFloatConstantCurve_4"
+         ConstantCurve=(Points=((OutVal=10.000000),(InVal=1.000000,OutVal=400.000000)))
+         bBakedDataSuccesfully=True
+      End Object
+      DynamicParams(0)=(ParamName="MacroContribution",ParamValue=(MinValue=0.060000,MaxValue=0.500000,Distribution=DistributionFloatConstantCurve'"DistributionFloatConstantCurve_3"',Table=(Values=(0.500000),Op=1,EntryCount=1,EntryStride=1)))
+      DynamicParams(1)=(ParamName="EmissiveBrightness",ParamValue=(MinValue=-0.000009,MaxValue=2.162376,Distribution=DistributionFloatConstantCurve'"DistributionFloatConstantCurve_0"',Table=(TimeScale=31.000000,Values=(2.162376,2.118409,1.994079,1.799965,1.546643,1.244694,0.904693,0.537219,0.241867,0.211039,0.182945,0.157468,0.134476,0.113836,0.095422,0.079107,0.064764,0.052266,0.041486,0.032298,0.024575,0.018191,0.013022,0.008936,0.005806,0.003504,0.001905,0.000881,0.000305,0.000051,-0.000008,0.000000),Op=1,EntryCount=32,EntryStride=1)))
+      DynamicParams(2)=(ParamName="FadeDistance",ParamValue=(MinValue=10.000000,MaxValue=400.000000,Distribution=DistributionFloatConstantCurve'"DistributionFloatConstantCurve_4"',Table=(TimeScale=1.000000,Values=(10.000000,400.000000),Op=1,EntryCount=2,EntryStride=1)))
+      DynamicParams(3)=(ParamName="MacroSpeed",ParamValue=(MinValue=-0.012500,MaxValue=-0.012500,Distribution=DistributionFloatConstant'"DistributionParam4"',Table=(Values=(-0.012500),Op=1,EntryCount=1,EntryStride=1)))
+      UpdateFlags=15
+      LODValidity=3
+      ModuleEditorColor=(B=175,G=0,R=165,A=255)
+   End Object
+   Begin Object Name="ParticleModuleParameterDynamic_4"
+      Begin Object Name="DistributionParam4"
+         Constant=-0.012500
+         bBakedDataSuccesfully=True
+      End Object
+      Begin Object Name="DistributionFloatConstantCurve_0"
+         ConstantCurve=(Points=((OutVal=3.000000,InterpMode=CIM_CurveAutoClamped),(InVal=0.250000,OutVal=0.250000,ArriveTangent=-16.581079,LeaveTangent=-1.021522,InterpMode=CIM_CurveBreak),(InVal=1.000000,InterpMode=CIM_CurveAutoClamped)))
+         bBakedDataSuccesfully=True
+      End Object
+      Begin Object Name="DistributionFloatConstantCurve_3"
+         ConstantCurve=(Points=((OutVal=0.060000),(OutVal=0.500000)))
+         bBakedDataSuccesfully=True
+      End Object
+      Begin Object Name="DistributionFloatConstantCurve_4"
+         ConstantCurve=(Points=((OutVal=10.000000),(InVal=1.000000,OutVal=400.000000)))
+         bBakedDataSuccesfully=True
+      End Object
+      DynamicParams(0)=(ParamName="MacroContribution",ParamValue=(MinValue=0.060000,MaxValue=0.500000,Distribution=DistributionFloatConstantCurve'"DistributionFloatConstantCurve_3"',Table=(Values=(0.500000),Op=1,EntryCount=1,EntryStride=1)))
+      DynamicParams(1)=(ParamName="EmissiveBrightness",ParamValue=(MinValue=-0.000009,MaxValue=3.000000,Distribution=DistributionFloatConstantCurve'"DistributionFloatConstantCurve_0"',Table=(TimeScale=62.999996,Values=(3.000000,2.983741,2.936477,2.860290,2.757258,2.629462,2.478984,2.307901,2.118294,1.912245,1.691831,1.459135,1.216235,0.965212,0.708146,0.447117,0.245984,0.230291,0.215279,0.200934,0.187240,0.174183,0.161747,0.149917,0.138678,0.128015,0.117913,0.108356,0.099330,0.090819,0.082808,0.075283,0.068227,0.061626,0.055465,0.049728,0.044400,0.039467,0.034913,0.030723,0.026882,0.023374,0.020185,0.017299,0.014702,0.012378,0.010312,0.008488,0.006893,0.005510,0.004325,0.003322,0.002486,0.001802,0.001255,0.000830,0.000512,0.000286,0.000135,0.000046,0.000003,-0.000009,-0.000005,0.000000),Op=1,EntryCount=64,EntryStride=1)))
+      DynamicParams(2)=(ParamName="FadeDistance",ParamValue=(MinValue=10.000000,MaxValue=400.000000,Distribution=DistributionFloatConstantCurve'"DistributionFloatConstantCurve_4"',Table=(TimeScale=1.000000,Values=(10.000000,400.000000),Op=1,EntryCount=2,EntryStride=1)))
+      DynamicParams(3)=(ParamName="MacroSpeed",ParamValue=(MinValue=-0.012500,MaxValue=-0.012500,Distribution=DistributionFloatConstant'"DistributionParam4"',Table=(Values=(-0.012500),Op=1,EntryCount=1,EntryStride=1)))
+      UpdateFlags=15
+      LODValidity=3
+      ModuleEditorColor=(B=154,G=0,R=184,A=255)
+   End Object
+   Begin Object Name="ParticleModuleParameterDynamic_6"
+      Begin Object Name="DistributionParam4"
+         Constant=-0.012500
+         bBakedDataSuccesfully=True
+      End Object
+      Begin Object Name="DistributionFloatConstantCurve_0"
+         ConstantCurve=(Points=((OutVal=2.162376,InterpMode=CIM_CurveAutoClamped),(InVal=0.250000,OutVal=0.250000,ArriveTangent=-12.011023,LeaveTangent=-1.021522,InterpMode=CIM_CurveBreak),(InVal=1.000000,InterpMode=CIM_CurveAutoClamped)))
+         bBakedDataSuccesfully=True
+      End Object
+      Begin Object Name="DistributionFloatConstantCurve_3"
+         ConstantCurve=(Points=((OutVal=0.060000),(OutVal=0.500000)))
+         bBakedDataSuccesfully=True
+      End Object
+      Begin Object Name="DistributionFloatConstantCurve_4"
+         ConstantCurve=(Points=((OutVal=10.000000),(InVal=1.000000,OutVal=400.000000)))
+         bBakedDataSuccesfully=True
+      End Object
+      DynamicParams(0)=(ParamName="MacroContribution",ParamValue=(MinValue=0.060000,MaxValue=0.500000,Distribution=DistributionFloatConstantCurve'"DistributionFloatConstantCurve_3"',Table=(Values=(0.500000),Op=1,EntryCount=1,EntryStride=1)))
+      DynamicParams(1)=(ParamName="EmissiveBrightness",ParamValue=(MinValue=-0.000009,MaxValue=2.162376,Distribution=DistributionFloatConstantCurve'"DistributionFloatConstantCurve_0"',Table=(TimeScale=31.000000,Values=(2.162376,2.118409,1.994079,1.799965,1.546643,1.244694,0.904693,0.537219,0.241867,0.211039,0.182945,0.157468,0.134476,0.113836,0.095422,0.079107,0.064764,0.052266,0.041486,0.032298,0.024575,0.018191,0.013022,0.008936,0.005806,0.003504,0.001905,0.000881,0.000305,0.000051,-0.000008,0.000000),Op=1,EntryCount=32,EntryStride=1)))
+      DynamicParams(2)=(ParamName="FadeDistance",ParamValue=(MinValue=10.000000,MaxValue=400.000000,Distribution=DistributionFloatConstantCurve'"DistributionFloatConstantCurve_4"',Table=(TimeScale=1.000000,Values=(10.000000,400.000000),Op=1,EntryCount=2,EntryStride=1)))
+      DynamicParams(3)=(ParamName="MacroSpeed",ParamValue=(MinValue=-0.012500,MaxValue=-0.012500,Distribution=DistributionFloatConstant'"DistributionParam4"',Table=(Values=(-0.012500),Op=1,EntryCount=1,EntryStride=1)))
+      UpdateFlags=15
+      LODValidity=3
+      ModuleEditorColor=(B=84,G=0,R=221,A=255)
+   End Object
+   Begin Object Name="ParticleModuleRequired_0"
+      Begin Object Name="RequiredDistributionSpawnRate"
+      End Object
+      Material=Material'"/Game/MPS_V2/Game/Commons/Particles/Materials/Ramp/M_radial_ramp_soft.M_radial_ramp_soft"'
+      ScreenAlignment=PSA_Velocity
+      SortMode=PSORTMODE_Age_OldestFirst
+      bUseLegacyEmitterTime=False
+      SpawnRate=(Distribution=DistributionFloatConstant'"RequiredDistributionSpawnRate"')
+      RandomImageTime=1.000000
+      EmitterLoops=1
+      bEnabled=False
+      LODValidity=3
+      ModuleEditorColor=(B=0,G=128,R=202,A=255)
+   End Object
+   Begin Object Name="ParticleModuleRequired_1"
+      Begin Object Name="RequiredDistributionSpawnRate"
+      End Object
+      Material=Material'"/Game/MPS_V2/Game/Commons/Particles/Materials/Smoke/M_ImpactSmoke.M_ImpactSmoke"'
+      bUseLocalSpace=True
+      SortMode=PSORTMODE_Age_OldestFirst
+      bUseLegacyEmitterTime=False
+      SpawnRate=(Distribution=DistributionFloatConstant'"RequiredDistributionSpawnRate"')
+      InterpolationMethod=PSUVIM_Linear_Blend
+      SubImages_Horizontal=8
+      SubImages_Vertical=8
+      RandomImageTime=1.000000
+      MacroUVRadius=1000.000000
+      EmitterLoops=1
+      LODValidity=3
+      ModuleEditorColor=(B=0,G=188,R=149,A=255)
+   End Object
+   Begin Object Name="ParticleModuleRequired_14"
+      Begin Object Name="RequiredDistributionSpawnRate"
+      End Object
+      Material=Material'"/Game/MPS_V2/Game/Commons/Particles/Materials/Smoke/M_MuzzleSmokeDetail_GPU.M_MuzzleSmokeDetail_GPU"'
+      bUseLocalSpace=True
+      SortMode=PSORTMODE_Age_OldestFirst
+      bUseLegacyEmitterTime=False
+      SpawnRate=(Distribution=DistributionFloatConstant'"RequiredDistributionSpawnRate"')
+      InterpolationMethod=PSUVIM_Linear_Blend
+      SubImages_Horizontal=8
+      SubImages_Vertical=8
+      RandomImageTime=1.000000
+      MacroUVRadius=1000.000000
+      EmitterLoops=1
+      bEnabled=False
+      LODValidity=3
+      ModuleEditorColor=(B=0,G=197,R=136,A=255)
+   End Object
+   Begin Object Name="ParticleModuleRequired_16"
+      Begin Object Name="RequiredDistributionSpawnRate"
+      End Object
+      Material=Material'"/Game/MPS_V2/Game/Commons/Particles/Materials/Smoke/M_ImpactSmoke.M_ImpactSmoke"'
+      ScreenAlignment=PSA_FacingCameraPosition
+      bUseLocalSpace=True
+      SortMode=PSORTMODE_Age_OldestFirst
+      bUseLegacyEmitterTime=False
+      SpawnRate=(Distribution=DistributionFloatConstant'"RequiredDistributionSpawnRate"')
+      InterpolationMethod=PSUVIM_Linear_Blend
+      SubImages_Horizontal=8
+      SubImages_Vertical=8
+      RandomImageTime=1.000000
+      MacroUVRadius=1000.000000
+      EmitterLoops=1
+      bEnabled=False
+      LODValidity=3
+      ModuleEditorColor=(B=230,G=0,R=50,A=255)
+   End Object
+   Begin Object Name="ParticleModuleRequired_2"
+      Begin Object Name="RequiredDistributionSpawnRate"
+      End Object
+      Material=Material'"/Game/MPS_V2/Game/Commons/Particles/Materials/Smoke/M_ImpactSmoke.M_ImpactSmoke"'
+      ScreenAlignment=PSA_FacingCameraPosition
+      bUseLocalSpace=True
+      SortMode=PSORTMODE_Age_OldestFirst
+      bUseLegacyEmitterTime=False
+      SpawnRate=(Distribution=DistributionFloatConstant'"RequiredDistributionSpawnRate"')
+      InterpolationMethod=PSUVIM_Linear_Blend
+      SubImages_Horizontal=8
+      SubImages_Vertical=8
+      RandomImageTime=1.000000
+      MacroUVRadius=1000.000000
+      EmitterLoops=1
+      LODValidity=3
+      ModuleEditorColor=(B=0,G=197,R=136,A=255)
+   End Object
+   Begin Object Name="ParticleModuleRequired_3"
+      Begin Object Name="RequiredDistributionSpawnRate"
+      End Object
+      Material=Material'"/Game/MPS_V2/Game/Commons/Particles/Materials/Ramp/M_radial_ramp_soft.M_radial_ramp_soft"'
+      ScreenAlignment=PSA_Velocity
+      SortMode=PSORTMODE_Age_OldestFirst
+      bUseLegacyEmitterTime=False
+      SpawnRate=(Distribution=DistributionFloatConstant'"RequiredDistributionSpawnRate"')
+      RandomImageTime=1.000000
+      EmitterLoops=1
+      LODValidity=3
+      ModuleEditorColor=(B=185,G=0,R=153,A=255)
+   End Object
+   Begin Object Name="ParticleModuleSpawn_0"
+      Begin Object Name="BurstScaleDistribution"
+         Constant=1.000000
+         bBakedDataSuccesfully=True
+      End Object
+      Begin Object Name="RequiredDistributionSpawnRate"
+         bBakedDataSuccesfully=True
+      End Object
+      Begin Object Name="RequiredDistributionSpawnRateScale"
+         Constant=1.000000
+         bBakedDataSuccesfully=True
+      End Object
+      Rate=(Distribution=DistributionFloatConstant'"RequiredDistributionSpawnRate"',Table=(Values=(0.000000),Op=1,EntryCount=1,EntryStride=1))
+      RateScale=(MinValue=1.000000,MaxValue=1.000000,Distribution=DistributionFloatConstant'"RequiredDistributionSpawnRateScale"',Table=(Values=(1.000000),Op=1,EntryCount=1,EntryStride=1))
+      BurstList(0)=(Count=100,CountLow=12)
+      BurstScale=(MinValue=1.000000,MaxValue=1.000000,Distribution=DistributionFloatConstant'"BurstScaleDistribution"',Table=(Values=(1.000000),Op=1,EntryCount=1,EntryStride=1))
+      bApplyGlobalSpawnRateScale=False
+      LODValidity=3
+      ModuleEditorColor=(B=0,G=163,R=176,A=255)
+   End Object
+   Begin Object Name="ParticleModuleSpawn_1"
+      Begin Object Name="BurstScaleDistribution"
+         Constant=1.000000
+         bBakedDataSuccesfully=True
+      End Object
+      Begin Object Name="RequiredDistributionSpawnRateScale"
+         Constant=1.000000
+         bBakedDataSuccesfully=True
+      End Object
+      Begin Object Name="DistributionFloatUniform_2"
+         bBakedDataSuccesfully=True
+      End Object
+      Rate=(Distribution=DistributionFloatUniform'"DistributionFloatUniform_2"',Table=(Values=(0.000000),Op=1,EntryCount=1,EntryStride=1))
+      RateScale=(MinValue=1.000000,MaxValue=1.000000,Distribution=DistributionFloatConstant'"RequiredDistributionSpawnRateScale"',Table=(Values=(1.000000),Op=1,EntryCount=1,EntryStride=1))
+      BurstList(0)=(CountLow=0)
+      BurstScale=(MinValue=1.000000,MaxValue=1.000000,Distribution=DistributionFloatConstant'"BurstScaleDistribution"',Table=(Values=(1.000000),Op=1,EntryCount=1,EntryStride=1))
+      LODValidity=2
+      ModuleEditorColor=(B=0,G=155,R=183,A=255)
+   End Object
+   Begin Object Name="ParticleModuleSpawn_10"
+      Begin Object Name="BurstScaleDistribution"
+         Constant=1.000000
+         bBakedDataSuccesfully=True
+      End Object
+      Begin Object Name="RequiredDistributionSpawnRate"
+         bBakedDataSuccesfully=True
+      End Object
+      Begin Object Name="RequiredDistributionSpawnRateScale"
+         Constant=1.000000
+         bBakedDataSuccesfully=True
+      End Object
+      Rate=(Distribution=DistributionFloatConstant'"RequiredDistributionSpawnRate"',Table=(Values=(0.000000),Op=1,EntryCount=1,EntryStride=1))
+      RateScale=(MinValue=1.000000,MaxValue=1.000000,Distribution=DistributionFloatConstant'"RequiredDistributionSpawnRateScale"',Table=(Values=(1.000000),Op=1,EntryCount=1,EntryStride=1))
+      BurstList(0)=(Count=10,CountLow=5)
+      BurstScale=(MinValue=1.000000,MaxValue=1.000000,Distribution=DistributionFloatConstant'"BurstScaleDistribution"',Table=(Values=(1.000000),Op=1,EntryCount=1,EntryStride=1))
+      bApplyGlobalSpawnRateScale=False
+      LODValidity=1
+      ModuleEditorColor=(B=158,G=0,R=181,A=255)
+   End Object
+   Begin Object Name="ParticleModuleSpawn_12"
+      Begin Object Name="BurstScaleDistribution"
+         Constant=1.000000
+         bBakedDataSuccesfully=True
+      End Object
+      Begin Object Name="RequiredDistributionSpawnRate"
+         bBakedDataSuccesfully=True
+      End Object
+      Begin Object Name="RequiredDistributionSpawnRateScale"
+         Constant=1.000000
+         bBakedDataSuccesfully=True
+      End Object
+      Rate=(Distribution=DistributionFloatConstant'"RequiredDistributionSpawnRate"',Table=(Values=(0.000000),Op=1,EntryCount=1,EntryStride=1))
+      RateScale=(MinValue=1.000000,MaxValue=1.000000,Distribution=DistributionFloatConstant'"RequiredDistributionSpawnRateScale"',Table=(Values=(1.000000),Op=1,EntryCount=1,EntryStride=1))
+      BurstList(0)=(CountLow=0)
+      BurstScale=(MinValue=1.000000,MaxValue=1.000000,Distribution=DistributionFloatConstant'"BurstScaleDistribution"',Table=(Values=(1.000000),Op=1,EntryCount=1,EntryStride=1))
+      bApplyGlobalSpawnRateScale=False
+      LODValidity=2
+      ModuleEditorColor=(B=158,G=0,R=181,A=255)
+   End Object
+   Begin Object Name="ParticleModuleSpawn_16"
+      Begin Object Name="BurstScaleDistribution"
+         Constant=1.000000
+         bBakedDataSuccesfully=True
+      End Object
+      Begin Object Name="RequiredDistributionSpawnRateScale"
+         Constant=1.000000
+         bBakedDataSuccesfully=True
+      End Object
+      Begin Object Name="DistributionFloatUniform_2"
+         bBakedDataSuccesfully=True
+      End Object
+      Rate=(Distribution=DistributionFloatUniform'"DistributionFloatUniform_2"',Table=(Values=(0.000000),Op=1,EntryCount=1,EntryStride=1))
+      RateScale=(MinValue=1.000000,MaxValue=1.000000,Distribution=DistributionFloatConstant'"RequiredDistributionSpawnRateScale"',Table=(Values=(1.000000),Op=1,EntryCount=1,EntryStride=1))
+      BurstList(0)=(Count=2,CountLow=1)
+      BurstScale=(MinValue=1.000000,MaxValue=1.000000,Distribution=DistributionFloatConstant'"BurstScaleDistribution"',Table=(Values=(1.000000),Op=1,EntryCount=1,EntryStride=1))
+      LODValidity=1
+      ModuleEditorColor=(B=0,G=155,R=183,A=255)
+   End Object
+   Begin Object Name="ParticleModuleSpawn_2"
+      Begin Object Name="BurstScaleDistribution"
+         Constant=1.000000
+         bBakedDataSuccesfully=True
+      End Object
+      Begin Object Name="DistributionFloatConstant_1"
+         bBakedDataSuccesfully=True
+      End Object
+      Begin Object Name="RequiredDistributionSpawnRateScale"
+         Constant=1.000000
+         bBakedDataSuccesfully=True
+      End Object
+      Rate=(Distribution=DistributionFloatConstant'"DistributionFloatConstant_1"',Table=(Values=(0.000000),Op=1,EntryCount=1,EntryStride=1))
+      RateScale=(MinValue=1.000000,MaxValue=1.000000,Distribution=DistributionFloatConstant'"RequiredDistributionSpawnRateScale"',Table=(Values=(1.000000),Op=1,EntryCount=1,EntryStride=1))
+      BurstList(0)=(Count=1)
+      BurstScale=(MinValue=1.000000,MaxValue=1.000000,Distribution=DistributionFloatConstant'"BurstScaleDistribution"',Table=(Values=(1.000000),Op=1,EntryCount=1,EntryStride=1))
+      bApplyGlobalSpawnRateScale=False
+      LODValidity=1
+      ModuleEditorColor=(B=102,G=214,R=0,A=255)
+   End Object
+   Begin Object Name="ParticleModuleSpawn_21"
+      Begin Object Name="BurstScaleDistribution"
+         Constant=1.000000
+         bBakedDataSuccesfully=True
+      End Object
+      Begin Object Name="DistributionFloatConstant_1"
+         bBakedDataSuccesfully=True
+      End Object
+      Begin Object Name="RequiredDistributionSpawnRateScale"
+         Constant=1.000000
+         bBakedDataSuccesfully=True
+      End Object
+      Rate=(Distribution=DistributionFloatConstant'"DistributionFloatConstant_1"',Table=(Values=(0.000000),Op=1,EntryCount=1,EntryStride=1))
+      RateScale=(MinValue=1.000000,MaxValue=1.000000,Distribution=DistributionFloatConstant'"RequiredDistributionSpawnRateScale"',Table=(Values=(1.000000),Op=1,EntryCount=1,EntryStride=1))
+      BurstList(0)=(Count=2,CountLow=1)
+      BurstScale=(MinValue=1.000000,MaxValue=1.000000,Distribution=DistributionFloatConstant'"BurstScaleDistribution"',Table=(Values=(1.000000),Op=1,EntryCount=1,EntryStride=1))
+      bApplyGlobalSpawnRateScale=False
+      LODValidity=1
+      ModuleEditorColor=(B=187,G=0,R=151,A=255)
+   End Object
+   Begin Object Name="ParticleModuleSpawn_3"
+      Begin Object Name="BurstScaleDistribution"
+         Constant=1.000000
+         bBakedDataSuccesfully=True
+      End Object
+      Begin Object Name="DistributionFloatConstant_1"
+         bBakedDataSuccesfully=True
+      End Object
+      Begin Object Name="RequiredDistributionSpawnRateScale"
+         Constant=1.000000
+         bBakedDataSuccesfully=True
+      End Object
+      Rate=(Distribution=DistributionFloatConstant'"DistributionFloatConstant_1"',Table=(Values=(0.000000),Op=1,EntryCount=1,EntryStride=1))
+      RateScale=(MinValue=1.000000,MaxValue=1.000000,Distribution=DistributionFloatConstant'"RequiredDistributionSpawnRateScale"',Table=(Values=(1.000000),Op=1,EntryCount=1,EntryStride=1))
+      BurstList(0)=()
+      BurstScale=(MinValue=1.000000,MaxValue=1.000000,Distribution=DistributionFloatConstant'"BurstScaleDistribution"',Table=(Values=(1.000000),Op=1,EntryCount=1,EntryStride=1))
+      bApplyGlobalSpawnRateScale=False
+      LODValidity=2
+      ModuleEditorColor=(B=102,G=214,R=0,A=255)
+   End Object
+   Begin Object Name="ParticleModuleSpawn_4"
+      Begin Object Name="BurstScaleDistribution"
+         Constant=1.000000
+         bBakedDataSuccesfully=True
+      End Object
+      Begin Object Name="DistributionFloatConstant_1"
+         bBakedDataSuccesfully=True
+      End Object
+      Begin Object Name="RequiredDistributionSpawnRateScale"
+         Constant=1.000000
+         bBakedDataSuccesfully=True
+      End Object
+      Rate=(Distribution=DistributionFloatConstant'"DistributionFloatConstant_1"',Table=(Values=(0.000000),Op=1,EntryCount=1,EntryStride=1))
+      RateScale=(MinValue=1.000000,MaxValue=1.000000,Distribution=DistributionFloatConstant'"RequiredDistributionSpawnRateScale"',Table=(Values=(1.000000),Op=1,EntryCount=1,EntryStride=1))
+      BurstList(0)=(Count=2)
+      BurstScale=(MinValue=1.000000,MaxValue=1.000000,Distribution=DistributionFloatConstant'"BurstScaleDistribution"',Table=(Values=(1.000000),Op=1,EntryCount=1,EntryStride=1))
+      bApplyGlobalSpawnRateScale=False
+      LODValidity=1
+      ModuleEditorColor=(B=126,G=0,R=203,A=255)
+   End Object
+   Begin Object Name="ParticleModuleSpawn_6"
+      Begin Object Name="BurstScaleDistribution"
+         Constant=1.000000
+         bBakedDataSuccesfully=True
+      End Object
+      Begin Object Name="DistributionFloatConstant_1"
+         bBakedDataSuccesfully=True
+      End Object
+      Begin Object Name="RequiredDistributionSpawnRateScale"
+         Constant=1.000000
+         bBakedDataSuccesfully=True
+      End Object
+      Rate=(Distribution=DistributionFloatConstant'"DistributionFloatConstant_1"',Table=(Values=(0.000000),Op=1,EntryCount=1,EntryStride=1))
+      RateScale=(MinValue=1.000000,MaxValue=1.000000,Distribution=DistributionFloatConstant'"RequiredDistributionSpawnRateScale"',Table=(Values=(1.000000),Op=1,EntryCount=1,EntryStride=1))
+      BurstList(0)=()
+      BurstScale=(MinValue=1.000000,MaxValue=1.000000,Distribution=DistributionFloatConstant'"BurstScaleDistribution"',Table=(Values=(1.000000),Op=1,EntryCount=1,EntryStride=1))
+      bApplyGlobalSpawnRateScale=False
+      LODValidity=2
+      ModuleEditorColor=(B=126,G=0,R=203,A=255)
+   End Object
+   Begin Object Name="ParticleModuleSpawn_7"
+      Begin Object Name="BurstScaleDistribution"
+         Constant=1.000000
+         bBakedDataSuccesfully=True
+      End Object
+      Begin Object Name="DistributionFloatConstant_1"
+         bBakedDataSuccesfully=True
+      End Object
+      Begin Object Name="RequiredDistributionSpawnRateScale"
+         Constant=1.000000
+         bBakedDataSuccesfully=True
+      End Object
+      Rate=(Distribution=DistributionFloatConstant'"DistributionFloatConstant_1"',Table=(Values=(0.000000),Op=1,EntryCount=1,EntryStride=1))
+      RateScale=(MinValue=1.000000,MaxValue=1.000000,Distribution=DistributionFloatConstant'"RequiredDistributionSpawnRateScale"',Table=(Values=(1.000000),Op=1,EntryCount=1,EntryStride=1))
+      BurstList(0)=(CountLow=0)
+      BurstScale=(MinValue=1.000000,MaxValue=1.000000,Distribution=DistributionFloatConstant'"BurstScaleDistribution"',Table=(Values=(1.000000),Op=1,EntryCount=1,EntryStride=1))
+      bApplyGlobalSpawnRateScale=False
+      LODValidity=2
+      ModuleEditorColor=(B=187,G=0,R=151,A=255)
+   End Object
+   Begin Object Name="ParticleModuleCameraOffset_1"
+      Begin Object Name="DistributionFloatConstantCurve_0"
+         ConstantCurve=(Points=((OutVal=10.000000),(InVal=1.000000,OutVal=400.000000)))
+         bBakedDataSuccesfully=True
+      End Object
+      CameraOffset=(MinValue=10.000000,MaxValue=400.000000,Distribution=DistributionFloatConstantCurve'"DistributionFloatConstantCurve_0"',Table=(TimeScale=1.000000,Values=(10.000000,400.000000),Op=1,EntryCount=2,EntryStride=1))
+      LODValidity=3
+      ModuleEditorColor=(B=0,G=157,R=181,A=255)
+   End Object
+   Begin Object Name="ParticleModuleCameraOffset_2"
+      Begin Object Name="DistributionFloatConstantCurve_0"
+         ConstantCurve=(Points=((OutVal=10.000000),(InVal=1.000000,OutVal=180.000000)))
+         bBakedDataSuccesfully=True
+      End Object
+      CameraOffset=(MinValue=10.000000,MaxValue=180.000000,Distribution=DistributionFloatConstantCurve'"DistributionFloatConstantCurve_0"',Table=(TimeScale=1.000000,Values=(10.000000,180.000000),Op=1,EntryCount=2,EntryStride=1))
+      LODValidity=3
+      ModuleEditorColor=(B=0,G=191,R=145,A=255)
+   End Object
+   Begin Object Name="ParticleModuleCameraOffset_4"
+      Begin Object Name="DistributionFloatConstantCurve_0"
+         ConstantCurve=(Points=((),(InVal=0.500000,OutVal=60.000000)))
+         bBakedDataSuccesfully=True
+      End Object
+      CameraOffset=(MaxValue=60.000000,Distribution=DistributionFloatConstantCurve'"DistributionFloatConstantCurve_0"',Table=(TimeScale=2.000000,Values=(0.000000,60.000000),Op=1,EntryCount=2,EntryStride=1))
+      LODValidity=3
+      ModuleEditorColor=(B=204,G=0,R=126,A=255)
+   End Object
+   Begin Object Name="ParticleModuleColorScaleOverLife_1"
+      Begin Object Name="DistributionFloatConstantCurve_0"
+         ConstantCurve=(Points=((OutVal=1.000000),(InVal=1.000000)))
+      End Object
+      Begin Object Name="DistributionVectorConstant_0"
+         Constant=(X=1.000000,Y=1.000000,Z=1.000000)
+      End Object
+      ColorScaleOverLife=(Distribution=DistributionVectorConstant'"DistributionVectorConstant_0"')
+      AlphaScaleOverLife=(Distribution=DistributionFloatConstantCurve'"DistributionFloatConstantCurve_0"')
+      LODValidity=3
+      ModuleEditorColor=(B=166,G=0,R=174,A=255)
+   End Object
+   Begin Object Name="ParticleModuleColorScaleOverLife_11"
+      Begin Object Name="DistributionFloatConstantCurve_2"
+         ConstantCurve=(Points=((InterpMode=CIM_CurveAutoClamped),(InVal=0.346487,OutVal=0.450227,InterpMode=CIM_CurveAutoClamped),(InVal=0.696757,OutVal=0.096897,ArriveTangent=-0.916702,LeaveTangent=-0.916702,InterpMode=CIM_CurveUser),(InVal=1.000000,InterpMode=CIM_CurveAutoClamped)))
+         bBakedDataSuccesfully=True
+      End Object
+      Begin Object Name="DistributionVectorConstantCurve_0"
+         ConstantCurve=(Points=((OutVal=(X=1.250000,Y=1.000000,Z=1.000000)),(InVal=1.000000,OutVal=(X=1.000000,Y=1.000000,Z=1.000000))))
+         bIsDirty=False
+         bBakedDataSuccesfully=True
+      End Object
+      ColorScaleOverLife=(MinValue=1.000000,MaxValue=1.250000,MinValueVec=(X=1.000000,Y=1.000000,Z=1.000000),MaxValueVec=(X=1.250000,Y=1.000000,Z=1.000000),Distribution=DistributionVectorConstantCurve'"DistributionVectorConstantCurve_0"',Table=(TimeScale=1.000000,Values=(1.250000,1.000000,1.000000,1.000000,1.000000,1.000000),Op=1,EntryCount=2,EntryStride=3))
+      AlphaScaleOverLife=(MaxValue=0.450227,Distribution=DistributionFloatConstantCurve'"DistributionFloatConstantCurve_2"',Table=(TimeScale=7.000000,Values=(0.000000,0.166509,0.413441,0.414552,0.247613,0.081733,0.011634,0.000000),Op=1,EntryCount=8,EntryStride=1))
+      LODValidity=3
+      ModuleEditorColor=(B=147,G=189,R=0,A=255)
+   End Object
+   Begin Object Name="ParticleModuleColorScaleOverLife_2"
+      Begin Object Name="DistributionFloatConstantCurve_2"
+         ConstantCurve=(Points=((InterpMode=CIM_CurveAutoClamped),(InVal=0.346487,OutVal=0.450227,InterpMode=CIM_CurveAutoClamped),(InVal=0.696757,OutVal=0.096897,ArriveTangent=-0.916702,LeaveTangent=-0.916702,InterpMode=CIM_CurveUser),(InVal=1.000000,InterpMode=CIM_CurveAutoClamped)))
+         bBakedDataSuccesfully=True
+      End Object
+      Begin Object Name="DistributionVectorConstantCurve_0"
+         ConstantCurve=(Points=((OutVal=(X=1.250000,Y=1.000000,Z=1.000000)),(InVal=1.000000,OutVal=(X=1.000000,Y=1.000000,Z=1.000000))))
+         bIsDirty=False
+         bBakedDataSuccesfully=True
+      End Object
+      ColorScaleOverLife=(MinValue=1.000000,MaxValue=1.250000,MinValueVec=(X=1.000000,Y=1.000000,Z=1.000000),MaxValueVec=(X=1.250000,Y=1.000000,Z=1.000000),Distribution=DistributionVectorConstantCurve'"DistributionVectorConstantCurve_0"',Table=(TimeScale=1.000000,Values=(1.250000,1.000000,1.000000,1.000000,1.000000,1.000000),Op=1,EntryCount=2,EntryStride=3))
+      AlphaScaleOverLife=(MaxValue=0.450227,Distribution=DistributionFloatConstantCurve'"DistributionFloatConstantCurve_2"',Table=(TimeScale=7.000000,Values=(0.000000,0.166509,0.413441,0.414552,0.247613,0.081733,0.011634,0.000000),Op=1,EntryCount=8,EntryStride=1))
+      LODValidity=3
+      ModuleEditorColor=(B=50,G=229,R=0,A=255)
+   End Object
+   Begin Object Name="ParticleModuleColorScaleOverLife_4"
+      Begin Object Name="DistributionFloatConstantCurve_2"
+         ConstantCurve=(Points=((InterpMode=CIM_CurveAutoClamped),(InVal=0.346487,OutVal=0.450227,InterpMode=CIM_CurveAutoClamped),(InVal=0.696757,OutVal=0.096897,ArriveTangent=-0.916702,LeaveTangent=-0.916702,InterpMode=CIM_CurveUser),(InVal=1.000000,InterpMode=CIM_CurveAutoClamped)))
+         bBakedDataSuccesfully=True
+      End Object
+      Begin Object Name="DistributionVectorConstantCurve_0"
+         ConstantCurve=(Points=((OutVal=(X=1.250000,Y=1.000000,Z=1.000000)),(InVal=1.000000,OutVal=(X=1.000000,Y=1.000000,Z=1.000000))))
+         bIsDirty=False
+         bBakedDataSuccesfully=True
+      End Object
+      ColorScaleOverLife=(MinValue=1.000000,MaxValue=1.250000,MinValueVec=(X=1.000000,Y=1.000000,Z=1.000000),MaxValueVec=(X=1.250000,Y=1.000000,Z=1.000000),Distribution=DistributionVectorConstantCurve'"DistributionVectorConstantCurve_0"',Table=(TimeScale=1.000000,Values=(1.250000,1.000000,1.000000,1.000000,1.000000,1.000000),Op=1,EntryCount=2,EntryStride=3))
+      AlphaScaleOverLife=(MaxValue=0.450227,Distribution=DistributionFloatConstantCurve'"DistributionFloatConstantCurve_2"',Table=(TimeScale=7.000000,Values=(0.000000,0.166509,0.413441,0.414552,0.247613,0.081733,0.011634,0.000000),Op=1,EntryCount=8,EntryStride=1))
+      LODValidity=3
+      ModuleEditorColor=(B=200,G=131,R=0,A=255)
+   End Object
+   Begin Object Name="ParticleModuleColorScaleOverLife_6"
+      Begin Object Name="DistributionFloatConstantCurve_0"
+         ConstantCurve=(Points=((OutVal=1.000000),(InVal=1.000000)))
+         bBakedDataSuccesfully=True
+      End Object
+      Begin Object Name="DistributionVectorConstant_0"
+         Constant=(X=1.000000,Y=1.000000,Z=1.000000)
+         bIsDirty=False
+         bBakedDataSuccesfully=True
+      End Object
+      ColorScaleOverLife=(MinValue=1.000000,MaxValue=1.000000,MinValueVec=(X=1.000000,Y=1.000000,Z=1.000000),MaxValueVec=(X=1.000000,Y=1.000000,Z=1.000000),Distribution=DistributionVectorConstant'"DistributionVectorConstant_0"',Table=(Values=(1.000000,1.000000,1.000000),Op=1,EntryCount=1,EntryStride=3))
+      AlphaScaleOverLife=(MaxValue=1.000000,Distribution=DistributionFloatConstantCurve'"DistributionFloatConstantCurve_0"',Table=(TimeScale=1.000000,Values=(1.000000,0.000000),Op=1,EntryCount=2,EntryStride=1))
+      LODValidity=3
+      ModuleEditorColor=(B=126,G=0,R=203,A=255)
+   End Object
+   Begin Object Name="ParticleModuleColorScaleOverLife_8"
+      Begin Object Name="DistributionFloatConstantCurve_2"
+         ConstantCurve=(Points=((InterpMode=CIM_CurveAutoClamped),(InVal=0.346487,OutVal=0.450227,InterpMode=CIM_CurveAutoClamped),(InVal=0.696757,OutVal=0.096897,ArriveTangent=-0.916702,LeaveTangent=-0.916702,InterpMode=CIM_CurveUser),(InVal=1.000000,InterpMode=CIM_CurveAutoClamped)))
+         bBakedDataSuccesfully=True
+      End Object
+      Begin Object Name="DistributionVectorConstantCurve_0"
+         ConstantCurve=(Points=((OutVal=(X=1.250000,Y=1.000000,Z=1.000000)),(InVal=1.000000,OutVal=(X=1.000000,Y=1.000000,Z=1.000000))))
+         bIsDirty=False
+         bBakedDataSuccesfully=True
+      End Object
+      ColorScaleOverLife=(MinValue=1.000000,MaxValue=1.250000,MinValueVec=(X=1.000000,Y=1.000000,Z=1.000000),MaxValueVec=(X=1.250000,Y=1.000000,Z=1.000000),Distribution=DistributionVectorConstantCurve'"DistributionVectorConstantCurve_0"',Table=(TimeScale=1.000000,Values=(1.250000,1.000000,1.000000,1.000000,1.000000,1.000000),Op=1,EntryCount=2,EntryStride=3))
+      AlphaScaleOverLife=(MaxValue=0.450227,Distribution=DistributionFloatConstantCurve'"DistributionFloatConstantCurve_2"',Table=(TimeScale=7.000000,Values=(0.000000,0.166509,0.413441,0.414552,0.247613,0.081733,0.011634,0.000000),Op=1,EntryCount=8,EntryStride=1))
+      LODValidity=3
+      ModuleEditorColor=(B=0,G=172,R=167,A=255)
+   End Object
+   Begin Object Name="ParticleModuleSubUV_1"
+      Begin Object Name="DistributionFloatConstantCurve_1"
+         ConstantCurve=(Points=((),(InVal=1.000000,OutVal=63.000000)))
+         bBakedDataSuccesfully=True
+      End Object
+      SubImageIndex=(MaxValue=63.000000,Distribution=DistributionFloatConstantCurve'"DistributionFloatConstantCurve_1"',Table=(TimeScale=1.000000,Values=(0.000000,63.000000),Op=1,EntryCount=2,EntryStride=1))
+      LODValidity=3
+      ModuleEditorColor=(B=103,G=0,R=214,A=255)
+   End Object
+   Begin Object Name="ParticleModuleSubUV_16"
+      Begin Object Name="DistributionFloatConstantCurve_1"
+         ConstantCurve=(Points=((),(InVal=1.000000,OutVal=63.000000)))
+         bBakedDataSuccesfully=True
+      End Object
+      SubImageIndex=(MaxValue=63.000000,Distribution=DistributionFloatConstantCurve'"DistributionFloatConstantCurve_1"',Table=(TimeScale=1.000000,Values=(0.000000,63.000000),Op=1,EntryCount=2,EntryStride=1))
+      LODValidity=3
+      ModuleEditorColor=(B=0,G=30,R=231,A=255)
+   End Object
+   Begin Object Name="ParticleModuleSubUV_2"
+      Begin Object Name="DistributionFloatConstantCurve_1"
+         ConstantCurve=(Points=((InterpMode=CIM_CurveAutoClamped),(InVal=1.000000,OutVal=63.000000,InterpMode=CIM_CurveAutoClamped)))
+         bBakedDataSuccesfully=True
+      End Object
+      SubImageIndex=(MaxValue=63.000000,Distribution=DistributionFloatConstantCurve'"DistributionFloatConstantCurve_1"',Table=(TimeScale=31.000000,Values=(0.000000,0.193394,0.754432,1.657777,2.878096,4.390052,6.168311,8.187539,10.422399,12.847558,15.437678,18.167868,21.012333,23.945473,26.941944,29.976427,33.023575,36.058044,39.054527,41.987675,44.832127,47.562317,50.152439,52.577599,54.812458,56.831684,58.609951,60.121906,61.342216,62.245571,62.806602,63.000000),Op=1,EntryCount=32,EntryStride=1))
+      LODValidity=3
+      ModuleEditorColor=(B=233,G=0,R=30,A=255)
+   End Object
+   Begin Object Name="ParticleModuleSubUV_3"
+      Begin Object Name="DistributionFloatConstantCurve_1"
+         ConstantCurve=(Points=((InterpMode=CIM_CurveAutoClamped),(InVal=1.000000,OutVal=63.000000,InterpMode=CIM_CurveAutoClamped)))
+         bBakedDataSuccesfully=True
+      End Object
+      SubImageIndex=(MaxValue=63.000000,Distribution=DistributionFloatConstantCurve'"DistributionFloatConstantCurve_1"',Table=(TimeScale=31.000000,Values=(0.000000,0.193394,0.754432,1.657777,2.878096,4.390052,6.168311,8.187539,10.422399,12.847558,15.437678,18.167868,21.012333,23.945473,26.941944,29.976427,33.023575,36.058044,39.054527,41.987675,44.832127,47.562317,50.152439,52.577599,54.812458,56.831684,58.609951,60.121906,61.342216,62.245571,62.806602,63.000000),Op=1,EntryCount=32,EntryStride=1))
+      LODValidity=3
+      ModuleEditorColor=(B=99,G=0,R=216,A=255)
+   End Object
+   Begin Object Name="ParticleModuleColorScaleOverLife_12"
+      Begin Object Name="DistributionFloatParticleParameter_0"
+         ParameterName="InstanceAlphaScaleOverLife"
+         ParamMode=DPM_Direct
+         Constant=1.000000
+      End Object
+      Begin Object Name="DistributionVectorParticleParameter_0"
+         ParameterName="InstanceColorScaleOverLife"
+         ParamModes(0)=DPM_Direct
+         ParamModes(1)=DPM_Direct
+         ParamModes(2)=DPM_Direct
+         Constant=(X=1.000000,Y=1.000000,Z=1.000000)
+         bIsDirty=False
+      End Object
+      ColorScaleOverLife=(MinValue=1.000000,MaxValue=1.000000,MinValueVec=(X=1.000000,Y=1.000000,Z=1.000000),MaxValueVec=(X=1.000000,Y=1.000000,Z=1.000000),Distribution=DistributionVectorParticleParameter'"DistributionVectorParticleParameter_0"',Table=(Values=(1.000000,1.000000,1.000000)))
+      AlphaScaleOverLife=(MinValue=1.000000,MaxValue=1.000000,Distribution=DistributionFloatParticleParameter'"DistributionFloatParticleParameter_0"',Table=(Values=(1.000000)))
+      LODValidity=3
+      ModuleEditorColor=(B=106,G=0,R=213,A=255)
+   End Object
+   Begin Object Name="ParticleModuleColorScaleOverLife_3"
+      Begin Object Name="DistributionFloatParticleParameter_0"
+         ParameterName="InstanceAlphaScaleOverLife"
+         ParamMode=DPM_Direct
+         Constant=1.000000
+      End Object
+      Begin Object Name="DistributionVectorParticleParameter_0"
+         ParameterName="InstanceColorScaleOverLife"
+         ParamModes(0)=DPM_Direct
+         ParamModes(1)=DPM_Direct
+         ParamModes(2)=DPM_Direct
+         Constant=(X=1.000000,Y=1.000000,Z=1.000000)
+         bIsDirty=False
+      End Object
+      ColorScaleOverLife=(MinValue=1.000000,MaxValue=1.000000,MinValueVec=(X=1.000000,Y=1.000000,Z=1.000000),MaxValueVec=(X=1.000000,Y=1.000000,Z=1.000000),Distribution=DistributionVectorParticleParameter'"DistributionVectorParticleParameter_0"',Table=(Values=(1.000000,1.000000,1.000000)))
+      AlphaScaleOverLife=(MinValue=1.000000,MaxValue=1.000000,Distribution=DistributionFloatParticleParameter'"DistributionFloatParticleParameter_0"',Table=(Values=(1.000000)))
+      LODValidity=3
+      ModuleEditorColor=(B=0,G=84,R=221,A=255)
+   End Object
+   Begin Object Name="ParticleModuleColorScaleOverLife_5"
+      Begin Object Name="DistributionFloatParticleParameter_0"
+         ParameterName="InstanceAlphaScaleOverLife"
+         ParamMode=DPM_Direct
+         Constant=1.000000
+      End Object
+      Begin Object Name="DistributionVectorParticleParameter_0"
+         ParameterName="InstanceColorScaleOverLife"
+         ParamModes(0)=DPM_Direct
+         ParamModes(1)=DPM_Direct
+         ParamModes(2)=DPM_Direct
+         Constant=(X=1.000000,Y=1.000000,Z=1.000000)
+         bIsDirty=False
+      End Object
+      ColorScaleOverLife=(MinValue=1.000000,MaxValue=1.000000,MinValueVec=(X=1.000000,Y=1.000000,Z=1.000000),MaxValueVec=(X=1.000000,Y=1.000000,Z=1.000000),Distribution=DistributionVectorParticleParameter'"DistributionVectorParticleParameter_0"',Table=(Values=(1.000000,1.000000,1.000000)))
+      AlphaScaleOverLife=(MinValue=1.000000,MaxValue=1.000000,Distribution=DistributionFloatParticleParameter'"DistributionFloatParticleParameter_0"',Table=(Values=(1.000000)))
+      LODValidity=3
+      ModuleEditorColor=(B=0,G=195,R=138,A=255)
+   End Object
+   Begin Object Name="ParticleModuleColorScaleOverLife_9"
+      Begin Object Name="DistributionFloatParticleParameter_0"
+         ParameterName="InstanceAlphaScaleOverLife"
+         ParamMode=DPM_Direct
+         Constant=1.000000
+      End Object
+      Begin Object Name="DistributionVectorParticleParameter_0"
+         ParameterName="InstanceColorScaleOverLife"
+         ParamModes(0)=DPM_Direct
+         ParamModes(1)=DPM_Direct
+         ParamModes(2)=DPM_Direct
+         Constant=(X=1.000000,Y=1.000000,Z=1.000000)
+         bIsDirty=False
+      End Object
+      ColorScaleOverLife=(MinValue=1.000000,MaxValue=1.000000,MinValueVec=(X=1.000000,Y=1.000000,Z=1.000000),MaxValueVec=(X=1.000000,Y=1.000000,Z=1.000000),Distribution=DistributionVectorParticleParameter'"DistributionVectorParticleParameter_0"',Table=(Values=(1.000000,1.000000,1.000000)))
+      AlphaScaleOverLife=(MinValue=1.000000,MaxValue=1.000000,Distribution=DistributionFloatParticleParameter'"DistributionFloatParticleParameter_0"',Table=(Values=(1.000000)))
+      LODValidity=3
+      ModuleEditorColor=(B=0,G=69,R=225,A=255)
+   End Object
+   Begin Object Name="ParticleModuleLifetime_0"
+      Begin Object Name="DistributionLifetime"
+         Min=1.000000
+         Max=2.000000
+         bBakedDataSuccesfully=True
+      End Object
+      Lifetime=(MinValue=1.000000,MaxValue=2.000000,Distribution=DistributionFloatUniform'"DistributionLifetime"',Table=(Values=(1.000000,2.000000),Op=2,EntryCount=1,EntryStride=2,SubEntryStride=1))
+      LODValidity=3
+      ModuleEditorColor=(B=195,G=0,R=140,A=255)
+   End Object
+   Begin Object Name="ParticleModuleLifetime_16"
+      Begin Object Name="DistributionFloatUniform_0"
+         Min=2.000000
+         Max=3.000000
+         bBakedDataSuccesfully=True
+      End Object
+      Lifetime=(MinValue=2.000000,MaxValue=3.000000,Distribution=DistributionFloatUniform'"DistributionFloatUniform_0"',Table=(Values=(2.000000,3.000000),Op=2,EntryCount=1,EntryStride=2,SubEntryStride=1))
+      LODValidity=3
+      ModuleEditorColor=(B=171,G=0,R=169,A=255)
+   End Object
+   Begin Object Name="ParticleModuleLifetime_17"
+      Begin Object Name="DistributionFloatUniform_1"
+         Min=0.500000
+         Max=1.000000
+         bBakedDataSuccesfully=True
+      End Object
+      Lifetime=(MinValue=0.500000,MaxValue=1.000000,Distribution=DistributionFloatUniform'"DistributionFloatUniform_1"',Table=(Values=(0.500000,1.000000),Op=2,EntryCount=1,EntryStride=2,SubEntryStride=1))
+      LODValidity=3
+      ModuleEditorColor=(B=213,G=0,R=109,A=255)
+   End Object
+   Begin Object Name="ParticleModuleLifetime_2"
+      Begin Object Name="DistributionFloatUniform_0"
+         Min=0.500000
+         Max=0.750000
+         bBakedDataSuccesfully=True
+      End Object
+      Lifetime=(MinValue=0.500000,MaxValue=0.750000,Distribution=DistributionFloatUniform'"DistributionFloatUniform_0"',Table=(Values=(0.500000,0.750000),Op=2,EntryCount=1,EntryStride=2,SubEntryStride=1))
+      LODValidity=3
+      ModuleEditorColor=(B=162,G=0,R=178,A=255)
+   End Object
+   Begin Object Name="ParticleModuleLifetime_3"
+      Begin Object Name="DistributionLifetime"
+         Min=1.000000
+         Max=1.000000
+         bBakedDataSuccesfully=True
+      End Object
+      Lifetime=(MinValue=1.000000,MaxValue=1.000000,Distribution=DistributionFloatUniform'"DistributionLifetime"',Table=(Values=(1.000000),Op=1,EntryCount=1,EntryStride=1))
+      LODValidity=3
+      ModuleEditorColor=(B=157,G=181,R=0,A=255)
+   End Object
+   Begin Object Name="ParticleModuleRotation_0"
+      Begin Object Name="DistributionStartRotation"
+         Min=-1.000000
+         Max=1.000000
+         bBakedDataSuccesfully=True
+      End Object
+      StartRotation=(MinValue=-1.000000,MaxValue=1.000000,Distribution=DistributionFloatUniform'"DistributionStartRotation"',Table=(Values=(-1.000000,1.000000),Op=2,EntryCount=1,EntryStride=2,SubEntryStride=1))
+      LODValidity=3
+      ModuleEditorColor=(B=0,G=226,R=64,A=255)
+   End Object
+   Begin Object Name="ParticleModuleRotation_1"
+      Begin Object Name="DistributionStartRotation"
+         Max=1.000000
+         bBakedDataSuccesfully=True
+      End Object
+      StartRotation=(MaxValue=1.000000,Distribution=DistributionFloatUniform'"DistributionStartRotation"',Table=(Values=(0.000000,1.000000),Op=2,EntryCount=1,EntryStride=2,SubEntryStride=1))
+      LODValidity=3
+      ModuleEditorColor=(B=143,G=192,R=0,A=255)
+   End Object
+   Begin Object Name="ParticleModuleRotation_12"
+      Begin Object Name="DistributionStartRotation"
+         Min=-1.000000
+         Max=1.000000
+         bBakedDataSuccesfully=True
+      End Object
+      StartRotation=(MinValue=-1.000000,MaxValue=1.000000,Distribution=DistributionFloatUniform'"DistributionStartRotation"',Table=(Values=(-1.000000,1.000000),Op=2,EntryCount=1,EntryStride=2,SubEntryStride=1))
+      LODValidity=3
+      ModuleEditorColor=(B=80,G=0,R=222,A=255)
+   End Object
+   Begin Object Name="ParticleModuleRotation_8"
+      Begin Object Name="DistributionStartRotation"
+         Max=0.200000
+         bBakedDataSuccesfully=True
+      End Object
+      StartRotation=(MaxValue=0.200000,Distribution=DistributionFloatUniform'"DistributionStartRotation"',Table=(Values=(0.000000,0.200000),Op=2,EntryCount=1,EntryStride=2,SubEntryStride=1))
+      LODValidity=3
+      ModuleEditorColor=(B=69,G=225,R=0,A=255)
+   End Object
+   Begin Object Name="ParticleModuleVelocity_0"
+      Begin Object Name="DistributionStartVelocityRadial"
+         bBakedDataSuccesfully=True
+      End Object
+      Begin Object Name="DistributionStartVelocity"
+         Max=(X=150.000000,Y=0.000000,Z=0.000000)
+         Min=(X=100.000000,Y=0.000000,Z=0.000000)
+         bIsDirty=False
+         bBakedDataSuccesfully=True
+      End Object
+      StartVelocity=(MaxValue=150.000000,MinValueVec=(X=100.000000,Y=0.000000,Z=0.000000),MaxValueVec=(X=150.000000,Y=0.000000,Z=0.000000),Distribution=DistributionVectorUniform'"DistributionStartVelocity"',Table=(Values=(100.000000,0.000000,0.000000,150.000000,0.000000,0.000000),Op=2,EntryCount=1,EntryStride=6,SubEntryStride=3))
+      StartVelocityRadial=(Distribution=DistributionFloatUniform'"DistributionStartVelocityRadial"',Table=(Values=(0.000000),Op=1,EntryCount=1,EntryStride=1))
+      LODValidity=3
+      ModuleEditorColor=(B=0,G=50,R=229,A=255)
+   End Object
+   Begin Object Name="ParticleModuleVelocity_1"
+      Begin Object Name="DistributionStartVelocityRadial"
+         bBakedDataSuccesfully=True
+      End Object
+      Begin Object Name="DistributionStartVelocity"
+         Max=(X=60.000000,Y=5.000000,Z=5.000000)
+         Min=(X=90.000000,Y=-5.000000,Z=-5.000000)
+         bIsDirty=False
+         bBakedDataSuccesfully=True
+      End Object
+      StartVelocity=(MinValue=-5.000000,MaxValue=60.000000,MinValueVec=(X=90.000000,Y=-5.000000,Z=-5.000000),MaxValueVec=(X=60.000000,Y=5.000000,Z=5.000000),Distribution=DistributionVectorUniform'"DistributionStartVelocity"',Table=(Values=(90.000000,-5.000000,-5.000000,60.000000,5.000000,5.000000),Op=2,EntryCount=1,EntryStride=6,SubEntryStride=3))
+      StartVelocityRadial=(Distribution=DistributionFloatUniform'"DistributionStartVelocityRadial"',Table=(Values=(0.000000),Op=1,EntryCount=1,EntryStride=1))
+      LODValidity=3
+      ModuleEditorColor=(B=0,G=163,R=176,A=255)
+   End Object
+   Begin Object Name="ParticleModuleVelocity_10"
+      Begin Object Name="DistributionStartVelocityRadial"
+         bBakedDataSuccesfully=True
+      End Object
+      Begin Object Name="DistributionStartVelocity"
+         Max=(X=150.000000,Y=5.000000,Z=5.000000)
+         Min=(X=25.000000,Y=-5.000000,Z=-5.000000)
+         bIsDirty=False
+         bBakedDataSuccesfully=True
+      End Object
+      StartVelocity=(MinValue=-5.000000,MaxValue=150.000000,MinValueVec=(X=25.000000,Y=-5.000000,Z=-5.000000),MaxValueVec=(X=150.000000,Y=5.000000,Z=5.000000),Distribution=DistributionVectorUniform'"DistributionStartVelocity"',Table=(Values=(25.000000,-5.000000,-5.000000,150.000000,5.000000,5.000000),Op=2,EntryCount=1,EntryStride=6,SubEntryStride=3))
+      StartVelocityRadial=(Distribution=DistributionFloatUniform'"DistributionStartVelocityRadial"',Table=(Values=(0.000000),Op=1,EntryCount=1,EntryStride=1))
+      LODValidity=3
+      ModuleEditorColor=(B=155,G=183,R=0,A=255)
+   End Object
+   Begin Object Name="ParticleModuleVelocity_2"
+      Begin Object Name="DistributionStartVelocityRadial"
+         bBakedDataSuccesfully=True
+      End Object
+      Begin Object Name="DistributionStartVelocity"
+         Max=(X=120.000000,Y=0.000000,Z=0.000000)
+         Min=(X=60.000000,Y=0.000000,Z=0.000000)
+         bIsDirty=False
+         bBakedDataSuccesfully=True
+      End Object
+      StartVelocity=(MaxValue=120.000000,MinValueVec=(X=60.000000,Y=0.000000,Z=0.000000),MaxValueVec=(X=120.000000,Y=0.000000,Z=0.000000),Distribution=DistributionVectorUniform'"DistributionStartVelocity"',Table=(Values=(60.000000,0.000000,0.000000,120.000000,0.000000,0.000000),Op=2,EntryCount=1,EntryStride=6,SubEntryStride=3))
+      StartVelocityRadial=(Distribution=DistributionFloatUniform'"DistributionStartVelocityRadial"',Table=(Values=(0.000000),Op=1,EntryCount=1,EntryStride=1))
+      LODValidity=3
+      ModuleEditorColor=(B=228,G=0,R=64,A=255)
+   End Object
+   Begin Object Name="ParticleModuleVelocity_3"
+      Begin Object Name="DistributionStartVelocityRadial"
+         bBakedDataSuccesfully=True
+      End Object
+      Begin Object Name="DistributionStartVelocity"
+         Max=(X=150.000000,Y=0.000000,Z=0.000000)
+         Min=(X=100.000000,Y=0.000000,Z=0.000000)
+         bIsDirty=False
+         bBakedDataSuccesfully=True
+      End Object
+      StartVelocity=(MaxValue=150.000000,MinValueVec=(X=100.000000,Y=0.000000,Z=0.000000),MaxValueVec=(X=150.000000,Y=0.000000,Z=0.000000),Distribution=DistributionVectorUniform'"DistributionStartVelocity"',Table=(Values=(100.000000,0.000000,0.000000,150.000000,0.000000,0.000000),Op=2,EntryCount=1,EntryStride=6,SubEntryStride=3))
+      StartVelocityRadial=(Distribution=DistributionFloatUniform'"DistributionStartVelocityRadial"',Table=(Values=(0.000000),Op=1,EntryCount=1,EntryStride=1))
+      LODValidity=3
+      ModuleEditorColor=(B=0,G=69,R=225,A=255)
+   End Object
+   Begin Object Name="ParticleModuleVelocity_4"
+      Begin Object Name="DistributionStartVelocityRadial"
+         bBakedDataSuccesfully=True
+      End Object
+      Begin Object Name="DistributionStartVelocity"
+         Max=(X=5.000000,Y=0.000000,Z=0.000000)
+         Min=(X=10.000000,Y=0.000000,Z=0.000000)
+         bIsDirty=False
+         bBakedDataSuccesfully=True
+      End Object
+      StartVelocity=(MaxValue=5.000000,MinValueVec=(X=10.000000,Y=0.000000,Z=0.000000),MaxValueVec=(X=5.000000,Y=0.000000,Z=0.000000),Distribution=DistributionVectorUniform'"DistributionStartVelocity"',Table=(Values=(10.000000,0.000000,0.000000,5.000000,0.000000,0.000000),Op=2,EntryCount=1,EntryStride=6,SubEntryStride=3))
+      StartVelocityRadial=(Distribution=DistributionFloatUniform'"DistributionStartVelocityRadial"',Table=(Values=(0.000000),Op=1,EntryCount=1,EntryStride=1))
+      LODValidity=3
+      ModuleEditorColor=(B=169,G=171,R=0,A=255)
+   End Object
+   Begin Object Name="ParticleModuleSize_0"
+      Begin Object Name="DistributionVectorConstant_1"
+         Constant=(X=3.000000,Y=0.000000,Z=0.000000)
+         LockedAxes=EDVLF_XYZ
+         bIsDirty=False
+         bBakedDataSuccesfully=True
+      End Object
+      StartSize=(MinValue=3.000000,MaxValue=3.000000,MinValueVec=(X=3.000000,Y=0.000000,Z=0.000000),MaxValueVec=(X=3.000000,Y=0.000000,Z=0.000000),Distribution=DistributionVectorConstant'"DistributionVectorConstant_1"',Table=(Values=(3.000000,3.000000,3.000000),Op=1,EntryCount=1,EntryStride=3))
+      LODValidity=3
+      ModuleEditorColor=(B=210,G=112,R=0,A=255)
+   End Object
+   Begin Object Name="ParticleModuleSize_3"
+      Begin Object Name="DistributionVectorConstant_1"
+         Constant=(X=2.000000,Y=10.000000,Z=0.000000)
+         bIsDirty=False
+         bBakedDataSuccesfully=True
+      End Object
+      StartSize=(MaxValue=10.000000,MinValueVec=(X=2.000000,Y=10.000000,Z=0.000000),MaxValueVec=(X=2.000000,Y=10.000000,Z=0.000000),Distribution=DistributionVectorConstant'"DistributionVectorConstant_1"',Table=(Values=(2.000000,10.000000,0.000000),Op=1,EntryCount=1,EntryStride=3))
+      LODValidity=3
+      ModuleEditorColor=(B=0,G=131,R=200,A=255)
+   End Object
+   Begin Object Name="ParticleModuleSizeMultiplyLife_13"
+      Begin Object Name="DistributionVectorConstantCurve_1"
+         ConstantCurve=(Points=((OutVal=(X=1.000000,Y=1.000000,Z=1.000000),InterpMode=CIM_CurveAutoClamped),(InVal=1.000000,OutVal=(X=2.000000,Y=2.000000,Z=2.000000),InterpMode=CIM_CurveAutoClamped)))
+         bIsDirty=False
+         bBakedDataSuccesfully=True
+      End Object
+      LifeMultiplier=(MinValue=1.000000,MaxValue=2.000000,MinValueVec=(X=1.000000,Y=1.000000,Z=1.000000),MaxValueVec=(X=2.000000,Y=2.000000,Z=2.000000),Distribution=DistributionVectorConstantCurve'"DistributionVectorConstantCurve_1"',Table=(TimeScale=7.000000,Values=(1.000000,1.000000,1.000000,1.055410,1.055410,1.055410,1.198267,1.198267,1.198267,1.393592,1.393592,1.393592,1.606408,1.606408,1.606408,1.801733,1.801733,1.801733,1.944590,1.944590,1.944590,2.000000,2.000000,2.000000),Op=1,EntryCount=8,EntryStride=3))
+      LODValidity=3
+      ModuleEditorColor=(B=195,G=0,R=140,A=255)
+   End Object
+   Begin Object Name="ParticleModuleSizeMultiplyLife_2"
+      Begin Object Name="DistributionVectorConstantCurve_1"
+         ConstantCurve=(Points=((OutVal=(X=1.000000,Y=1.000000,Z=1.000000),InterpMode=CIM_CurveAutoClamped),(InVal=1.000000,OutVal=(X=2.000000,Y=2.000000,Z=2.000000),InterpMode=CIM_CurveAutoClamped)))
+         bIsDirty=False
+         bBakedDataSuccesfully=True
+      End Object
+      LifeMultiplier=(MinValue=1.000000,MaxValue=2.000000,MinValueVec=(X=1.000000,Y=1.000000,Z=1.000000),MaxValueVec=(X=2.000000,Y=2.000000,Z=2.000000),Distribution=DistributionVectorConstantCurve'"DistributionVectorConstantCurve_1"',Table=(TimeScale=7.000000,Values=(1.000000,1.000000,1.000000,1.055410,1.055410,1.055410,1.198267,1.198267,1.198267,1.393592,1.393592,1.393592,1.606408,1.606408,1.606408,1.801733,1.801733,1.801733,1.944590,1.944590,1.944590,2.000000,2.000000,2.000000),Op=1,EntryCount=8,EntryStride=3))
+      LODValidity=3
+      ModuleEditorColor=(B=178,G=161,R=0,A=255)
+   End Object
+   Begin Object Name="ParticleModuleSizeMultiplyLife_3"
+      Begin Object Name="DistributionVectorConstantCurve_1"
+         ConstantCurve=(Points=((OutVal=(X=1.000000,Y=1.000000,Z=1.000000),ArriveTangent=(X=1.794304,Y=0.000000,Z=2.372695),LeaveTangent=(X=1.794304,Y=0.000000,Z=2.372695),InterpMode=CIM_CurveUser),(InVal=1.000000,OutVal=(X=2.000000,Y=2.000000,Z=2.000000))))
+         bIsDirty=False
+         bBakedDataSuccesfully=True
+      End Object
+      LifeMultiplier=(MinValue=1.000000,MaxValue=2.000000,MinValueVec=(X=1.000000,Y=1.000000,Z=1.000000),MaxValueVec=(X=2.000000,Y=2.000000,Z=2.000000),Distribution=DistributionVectorConstantCurve'"DistributionVectorConstantCurve_1"',Table=(TimeScale=7.000000,Values=(1.000000,1.000000,1.000000,1.243712,1.055410,1.304411,1.459801,1.198267,1.544107,1.644671,1.393592,1.725606,1.794723,1.606408,1.855426,1.906361,1.801733,1.940087,1.975985,1.944590,1.986105,2.000000,2.000000,2.000000),Op=1,EntryCount=8,EntryStride=3))
+      LODValidity=3
+      ModuleEditorColor=(B=0,G=165,R=174,A=255)
+   End Object
+   Begin Object Name="ParticleModuleSizeMultiplyLife_6"
+      Begin Object Name="DistributionVectorConstantCurve_1"
+         ConstantCurve=(Points=((OutVal=(X=1.000000,Y=1.000000,Z=1.000000),ArriveTangent=(X=1.794304,Y=0.000000,Z=2.372695),LeaveTangent=(X=1.794304,Y=0.000000,Z=2.372695),InterpMode=CIM_CurveUser),(InVal=1.000000,OutVal=(X=2.500000,Y=2.500000,Z=2.500000))))
+         bIsDirty=False
+         bBakedDataSuccesfully=True
+      End Object
+      LifeMultiplier=(MinValue=1.000000,MaxValue=2.500000,MinValueVec=(X=1.000000,Y=1.000000,Z=1.000000),MaxValueVec=(X=2.500000,Y=2.500000,Z=2.500000),Distribution=DistributionVectorConstantCurve'"DistributionVectorConstantCurve_1"',Table=(TimeScale=7.000000,Values=(1.000000,1.000000,1.000000,1.271417,1.083115,1.332116,1.558935,1.297400,1.643240,1.841467,1.590389,1.922402,2.097927,1.909611,2.158630,2.307227,2.202600,2.340954,2.448280,2.416885,2.458400,2.500000,2.500000,2.500000),Op=1,EntryCount=8,EntryStride=3))
+      LODValidity=3
+      ModuleEditorColor=(B=0,G=115,R=209,A=255)
+   End Object
+   Begin Object Name="ParticleModuleAcceleration_0"
+      Begin Object Name="DistributionAcceleration"
+         Max=(X=0.000000,Y=0.000000,Z=6.000000)
+         bIsDirty=False
+         bBakedDataSuccesfully=True
+      End Object
+      Acceleration=(MaxValue=6.000000,MaxValueVec=(X=0.000000,Y=0.000000,Z=6.000000),Distribution=DistributionVectorUniform'"DistributionAcceleration"',Table=(Values=(0.000000,0.000000,0.000000,0.000000,0.000000,6.000000),Op=2,EntryCount=1,EntryStride=6,SubEntryStride=3))
+      bAlwaysInWorldSpace=True
+      LODValidity=3
+      ModuleEditorColor=(B=192,G=0,R=145,A=255)
+   End Object
+   Begin Object Name="ParticleModuleAcceleration_1"
+      Begin Object Name="DistributionAcceleration"
+         Max=(X=0.000000,Y=0.000000,Z=30.000000)
+         Min=(X=0.000000,Y=0.000000,Z=60.000000)
+         bIsDirty=False
+         bBakedDataSuccesfully=True
+      End Object
+      Acceleration=(MaxValue=30.000000,MinValueVec=(X=0.000000,Y=0.000000,Z=60.000000),MaxValueVec=(X=0.000000,Y=0.000000,Z=30.000000),Distribution=DistributionVectorUniform'"DistributionAcceleration"',Table=(Values=(0.000000,0.000000,60.000000,0.000000,0.000000,30.000000),Op=2,EntryCount=1,EntryStride=6,SubEntryStride=3))
+      bAlwaysInWorldSpace=True
+      LODValidity=3
+      ModuleEditorColor=(B=233,G=0,R=0,A=255)
+   End Object
+   Begin Object Name="ParticleModuleAcceleration_2"
+      Begin Object Name="DistributionAcceleration"
+         Max=(X=0.000000,Y=0.000000,Z=30.000000)
+         Min=(X=0.000000,Y=0.000000,Z=60.000000)
+         bIsDirty=False
+         bBakedDataSuccesfully=True
+      End Object
+      Acceleration=(MaxValue=30.000000,MinValueVec=(X=0.000000,Y=0.000000,Z=60.000000),MaxValueVec=(X=0.000000,Y=0.000000,Z=30.000000),Distribution=DistributionVectorUniform'"DistributionAcceleration"',Table=(Values=(0.000000,0.000000,60.000000,0.000000,0.000000,30.000000),Op=2,EntryCount=1,EntryStride=6,SubEntryStride=3))
+      bAlwaysInWorldSpace=True
+      LODValidity=3
+      ModuleEditorColor=(B=0,G=217,R=95,A=255)
+   End Object
+   Begin Object Name="ParticleModuleAcceleration_4"
+      Begin Object Name="DistributionAcceleration"
+         Max=(X=0.000000,Y=0.000000,Z=6.000000)
+         bIsDirty=False
+         bBakedDataSuccesfully=True
+      End Object
+      Acceleration=(MaxValue=6.000000,MaxValueVec=(X=0.000000,Y=0.000000,Z=6.000000),Distribution=DistributionVectorUniform'"DistributionAcceleration"',Table=(Values=(0.000000,0.000000,0.000000,0.000000,0.000000,6.000000),Op=2,EntryCount=1,EntryStride=6,SubEntryStride=3))
+      bAlwaysInWorldSpace=True
+      LODValidity=3
+      ModuleEditorColor=(B=231,G=0,R=42,A=255)
+   End Object
+   Begin Object Name="ParticleModuleLocation_0"
+      Begin Object Name="DistributionStartLocation"
+         bIsDirty=False
+         bBakedDataSuccesfully=True
+      End Object
+      StartLocation=(Distribution=DistributionVectorUniform'"DistributionStartLocation"',Table=(Values=(0.000000,0.000000,0.000000),Op=1,EntryCount=1,EntryStride=3))
+      LODValidity=3
+      ModuleEditorColor=(B=0,G=231,R=30,A=255)
+   End Object
+   Begin Object Name="ParticleModuleLocation_1"
+      Begin Object Name="DistributionStartLocation"
+         Max=(X=30.000000,Y=10.000000,Z=10.000000)
+         Min=(X=5.000000,Y=-10.000000,Z=-10.000000)
+         bIsDirty=False
+         bBakedDataSuccesfully=True
+      End Object
+      StartLocation=(MinValue=-10.000000,MaxValue=30.000000,MinValueVec=(X=5.000000,Y=-10.000000,Z=-10.000000),MaxValueVec=(X=30.000000,Y=10.000000,Z=10.000000),Distribution=DistributionVectorUniform'"DistributionStartLocation"',Table=(Values=(5.000000,-10.000000,-10.000000,30.000000,10.000000,10.000000),Op=2,EntryCount=1,EntryStride=6,SubEntryStride=3))
+      LODValidity=3
+      ModuleEditorColor=(B=193,G=0,R=143,A=255)
+   End Object
+   Begin Object Name="ParticleModuleLocation_2"
+      Begin Object Name="DistributionStartLocation"
+         Max=(X=30.000000,Y=10.000000,Z=10.000000)
+         Min=(X=12.000000,Y=-10.000000,Z=-10.000000)
+         bIsDirty=False
+         bBakedDataSuccesfully=True
+      End Object
+      StartLocation=(MinValue=-10.000000,MaxValue=30.000000,MinValueVec=(X=12.000000,Y=-10.000000,Z=-10.000000),MaxValueVec=(X=30.000000,Y=10.000000,Z=10.000000),Distribution=DistributionVectorUniform'"DistributionStartLocation"',Table=(Values=(12.000000,-10.000000,-10.000000,30.000000,10.000000,10.000000),Op=2,EntryCount=1,EntryStride=6,SubEntryStride=3))
+      LODValidity=3
+      ModuleEditorColor=(B=0,G=200,R=131,A=255)
+   End Object
+   Begin Object Name="ParticleModuleLocation_3"
+      Begin Object Name="DistributionStartLocation"
+         bIsDirty=False
+         bBakedDataSuccesfully=True
+      End Object
+      StartLocation=(Distribution=DistributionVectorUniform'"DistributionStartLocation"',Table=(Values=(0.000000,0.000000,0.000000),Op=1,EntryCount=1,EntryStride=3))
+      LODValidity=3
+      ModuleEditorColor=(B=158,G=0,R=181,A=255)
+   End Object
+   Begin Object Name="ParticleModuleSize_1"
+      Begin Object Name="DistributionStartSize"
+         Max=(X=80.000000,Y=25.000000,Z=25.000000)
+         Min=(X=45.000000,Y=25.000000,Z=25.000000)
+         bIsDirty=False
+         bBakedDataSuccesfully=True
+      End Object
+      StartSize=(MinValue=25.000000,MaxValue=80.000000,MinValueVec=(X=45.000000,Y=25.000000,Z=25.000000),MaxValueVec=(X=80.000000,Y=25.000000,Z=25.000000),Distribution=DistributionVectorUniform'"DistributionStartSize"',Table=(Values=(45.000000,25.000000,25.000000,80.000000,25.000000,25.000000),Op=2,EntryCount=1,EntryStride=6,SubEntryStride=3))
+      LODValidity=3
+      ModuleEditorColor=(B=195,G=0,R=140,A=255)
+   End Object
+   Begin Object Name="ParticleModuleSize_16"
+      Begin Object Name="DistributionStartSize"
+         Max=(X=80.000000,Y=25.000000,Z=25.000000)
+         Min=(X=50.000000,Y=25.000000,Z=25.000000)
+         bIsDirty=False
+         bBakedDataSuccesfully=True
+      End Object
+      StartSize=(MinValue=25.000000,MaxValue=80.000000,MinValueVec=(X=50.000000,Y=25.000000,Z=25.000000),MaxValueVec=(X=80.000000,Y=25.000000,Z=25.000000),Distribution=DistributionVectorUniform'"DistributionStartSize"',Table=(Values=(50.000000,25.000000,25.000000,80.000000,25.000000,25.000000),Op=2,EntryCount=1,EntryStride=6,SubEntryStride=3))
+      LODValidity=3
+      ModuleEditorColor=(B=148,G=0,R=189,A=255)
+   End Object
+   Begin Object Name="ParticleModuleSize_19"
+      Begin Object Name="DistributionStartSize"
+         Max=(X=150.000000,Y=25.000000,Z=25.000000)
+         Min=(X=170.000000,Y=25.000000,Z=25.000000)
+         bIsDirty=False
+         bBakedDataSuccesfully=True
+      End Object
+      StartSize=(MinValue=25.000000,MaxValue=150.000000,MinValueVec=(X=170.000000,Y=25.000000,Z=25.000000),MaxValueVec=(X=150.000000,Y=25.000000,Z=25.000000),Distribution=DistributionVectorUniform'"DistributionStartSize"',Table=(Values=(170.000000,25.000000,25.000000,150.000000,25.000000,25.000000),Op=2,EntryCount=1,EntryStride=6,SubEntryStride=3))
+      LODValidity=3
+      ModuleEditorColor=(B=0,G=145,R=191,A=255)
+   End Object
+   Begin Object Name="ParticleModuleSize_2"
+      Begin Object Name="DistributionStartSize"
+         Max=(X=50.000000,Y=25.000000,Z=25.000000)
+         Min=(X=30.000000,Y=25.000000,Z=25.000000)
+         bIsDirty=False
+         bBakedDataSuccesfully=True
+      End Object
+      StartSize=(MinValue=25.000000,MaxValue=50.000000,MinValueVec=(X=30.000000,Y=25.000000,Z=25.000000),MaxValueVec=(X=50.000000,Y=25.000000,Z=25.000000),Distribution=DistributionVectorUniform'"DistributionStartSize"',Table=(Values=(30.000000,25.000000,25.000000,50.000000,25.000000,25.000000),Op=2,EntryCount=1,EntryStride=6,SubEntryStride=3))
+      LODValidity=3
+      ModuleEditorColor=(B=224,G=74,R=0,A=255)
+   End Object
+   Begin Object Name="InterpCurveEdSetup_0"
+      Tabs(0)=(Curves=((CurveObject=DistributionFloatConstantCurve'"P_ImpactHit:ParticleModuleParameterDynamic_4.DistributionFloatConstantCurve_3"',CurveColor=(B=154,G=0,R=184,A=255),CurveName="MacroContribution (DP0)",bHideCurve=1),(CurveObject=DistributionFloatConstantCurve'"P_ImpactHit:ParticleModuleParameterDynamic_4.DistributionFloatConstantCurve_0"',CurveColor=(B=154,G=0,R=184,A=255),CurveName="EmissiveBrightness (DP1)",bHideCurve=1),(CurveObject=DistributionFloatConstantCurve'"P_ImpactHit:ParticleModuleParameterDynamic_4.DistributionFloatConstantCurve_4"',CurveColor=(B=154,G=0,R=184,A=255),CurveName="FadeDistance (DP2)",bHideCurve=1),(CurveObject=DistributionFloatConstant'"P_ImpactHit:ParticleModuleParameterDynamic_4.DistributionParam4"',CurveColor=(B=154,G=0,R=184,A=255),CurveName="MacroSpeed (DP3)",bHideCurve=1),(CurveObject=DistributionFloatConstantCurve'"P_ImpactHit:ParticleModuleSubUV_2.DistributionFloatConstantCurve_1"',CurveColor=(B=233,G=0,R=30,A=255),CurveName="SubImageIndex",bHideCurve=1),(CurveObject=DistributionVectorConstantCurve'"P_ImpactHit:ParticleModuleSizeMultiplyLife_3.DistributionVectorConstantCurve_1"',CurveColor=(B=0,G=165,R=174,A=255),CurveName="LifeMultiplier",bHideCurve=13),(CurveObject=DistributionFloatConstantCurve'"P_ImpactHit:ParticleModuleSubUV_1.DistributionFloatConstantCurve_1"',CurveColor=(B=103,G=0,R=214,A=255),CurveName="SubImageIndex",bHideCurve=1),(CurveObject=DistributionFloatConstantCurve'"P_ImpactHit:ParticleModuleParameterDynamic_6.DistributionFloatConstantCurve_3"',CurveColor=(B=84,G=0,R=221,A=255),CurveName="MacroContribution (DP0)",bHideCurve=1),(CurveObject=DistributionFloatConstantCurve'"P_ImpactHit:ParticleModuleParameterDynamic_6.DistributionFloatConstantCurve_0"',CurveColor=(B=84,G=0,R=221,A=255),CurveName="EmissiveBrightness (DP1)",bHideCurve=1),(CurveObject=DistributionFloatConstantCurve'"P_ImpactHit:ParticleModuleParameterDynamic_6.DistributionFloatConstantCurve_4"',CurveColor=(B=84,G=0,R=221,A=255),CurveName="FadeDistance (DP2)",bHideCurve=1),(CurveObject=DistributionFloatConstant'"P_ImpactHit:ParticleModuleParameterDynamic_6.DistributionParam4"',CurveColor=(B=84,G=0,R=221,A=255),CurveName="MacroSpeed (DP3)",bHideCurve=1)),ViewStartInput=-0.006000,ViewEndInput=0.006000,ViewStartOutput=-0.006000,ViewEndOutput=0.006000)
+   End Object
+   Begin Object Name="ParticleSpriteEmitter_0"
+      Begin Object Name="ParticleLODLevel_0"
+         bEnabled=False
+         RequiredModule=ParticleModuleRequired'"P_ImpactHit:ParticleModuleRequired_0"'
+         Modules(0)=ParticleModuleLifetime'"P_ImpactHit:ParticleModuleLifetime_0"'
+         Modules(1)=ParticleModuleSize'"P_ImpactHit:ParticleModuleSize_0"'
+         Modules(2)=ParticleModuleLocationPrimitiveSphere'"P_ImpactHit:ParticleModuleLocationPrimitiveSphere_1"'
+         Modules(3)=ParticleModuleColor'"P_ImpactHit:ParticleModuleColor_0"'
+         Modules(4)=ParticleModuleVelocity'"P_ImpactHit:ParticleModuleVelocity_0"'
+         Modules(5)=ParticleModuleCollisionGPU'"P_ImpactHit:ParticleModuleCollisionGPU_0"'
+         Modules(6)=ParticleModuleColorScaleOverLife'"P_ImpactHit:ParticleModuleColorScaleOverLife_1"'
+         Modules(7)=ParticleModuleAccelerationConstant'"P_ImpactHit:ParticleModuleAccelerationConstant_2"'
+         Modules(8)=ParticleModuleSizeScaleBySpeed'"P_ImpactHit:ParticleModuleSizeScaleBySpeed_0"'
+         Begin Object Name="ParticleModuleTypeDataGpu_0"
+            EmitterInfo=(RequiredModule=ParticleModuleRequired'"P_ImpactHit:ParticleModuleRequired_0"',SpawnModule=ParticleModuleSpawn'"P_ImpactHit:ParticleModuleSpawn_0"',SpawnModules=(ParticleModuleRequired'"P_ImpactHit:ParticleModuleRequired_0"',ParticleModuleLifetime'"P_ImpactHit:ParticleModuleLifetime_0"',ParticleModuleSize'"P_ImpactHit:ParticleModuleSize_0"',ParticleModuleLocationPrimitiveSphere'"P_ImpactHit:ParticleModuleLocationPrimitiveSphere_1"',ParticleModuleVelocity'"P_ImpactHit:ParticleModuleVelocity_0"'),ConstantAcceleration=(X=0.000000,Y=0.000000,Z=-980.000000),InvMaxSize=(X=0.333333,Y=0.333333),InvRotationRateScale=0.500000,MaxLifetime=2.000000,MaxParticleCount=101,ScreenAlignment=PSA_Velocity,bEnableCollision=True)
+            ResourceData=(QuantizedColorSamples=((B=0,G=0,R=0,A=255),(B=0,G=0,R=0,A=0)),ColorScale=(X=0.000000,Y=0.000000,Z=0.000000,W=1.000000),ColorBias=(X=10.000000,Y=5.000000,Z=2.000000,W=0.000000),MiscBias=(X=3.000000,Y=3.000000,Z=0.000000,W=0.000000),SimulationAttrCurveBias=(X=1.000000,Y=1.000000,Z=1.000000,W=1.000000),SubImageSize=(X=1.000000,Y=1.000000,Z=1.000000,W=1.000000),SizeBySpeed=(X=0.050000,Y=0.050000,Z=1.000000,W=4.000000),ConstantAcceleration=(X=0.000000,Y=0.000000,Z=-980.000000),PerParticleVectorFieldBias=1.000000,ResilienceBias=0.100000,CollisionRadiusScale=0.500000,OneMinusFriction=0.750000,RotationRateScale=2.000000,ScreenAlignment=PSA_Velocity)
+            bClearExistingParticlesOnInit=True
+            LODValidity=3
+            ModuleEditorColor=(B=224,G=0,R=79,A=255)
+         End Object
+         TypeDataModule=ParticleModuleTypeDataGpu'"P_ImpactHit:ParticleModuleTypeDataGpu_0"'
+         SpawnModule=ParticleModuleSpawn'"P_ImpactHit:ParticleModuleSpawn_0"'
+         PeakActiveParticles=101
+      End Object
+      Begin Object Name="ParticleLODLevel_17"
+         Level=1
+         RequiredModule=ParticleModuleRequired'"P_ImpactHit:ParticleModuleRequired_0"'
+         Modules(0)=ParticleModuleLifetime'"P_ImpactHit:ParticleModuleLifetime_0"'
+         Modules(1)=ParticleModuleSize'"P_ImpactHit:ParticleModuleSize_0"'
+         Modules(2)=ParticleModuleLocationPrimitiveSphere'"P_ImpactHit:ParticleModuleLocationPrimitiveSphere_1"'
+         Modules(3)=ParticleModuleColor'"P_ImpactHit:ParticleModuleColor_0"'
+         Modules(4)=ParticleModuleVelocity'"P_ImpactHit:ParticleModuleVelocity_0"'
+         Modules(5)=ParticleModuleCollisionGPU'"P_ImpactHit:ParticleModuleCollisionGPU_0"'
+         Modules(6)=ParticleModuleColorScaleOverLife'"P_ImpactHit:ParticleModuleColorScaleOverLife_1"'
+         Modules(7)=ParticleModuleAccelerationConstant'"P_ImpactHit:ParticleModuleAccelerationConstant_2"'
+         Modules(8)=ParticleModuleSizeScaleBySpeed'"P_ImpactHit:ParticleModuleSizeScaleBySpeed_0"'
+         TypeDataModule=ParticleModuleTypeDataGpu'"P_ImpactHit:ParticleModuleTypeDataGpu_0"'
+         SpawnModule=ParticleModuleSpawn'"P_ImpactHit:ParticleModuleSpawn_0"'
+         PeakActiveParticles=101
+      End Object
+      EmitterName="Burst_Out"
+      bUseLegacySpawningBehavior=True
+      EmitterEditorColor=(B=221,G=84,R=0,A=255)
+      LODLevels(0)=ParticleLODLevel'"ParticleLODLevel_0"'
+      LODLevels(1)=ParticleLODLevel'"ParticleLODLevel_17"'
+      DetailModeBitmask=7
+   End Object
+   Begin Object Name="ParticleSpriteEmitter_1"
+      Begin Object Name="ParticleLODLevel_13"
+         Level=1
+         RequiredModule=ParticleModuleRequired'"P_ImpactHit:ParticleModuleRequired_1"'
+         Modules(0)=ParticleModuleLifetime'"P_ImpactHit:ParticleModuleLifetime_1"'
+         Modules(1)=ParticleModuleSize'"P_ImpactHit:ParticleModuleSize_1"'
+         Modules(2)=ParticleModuleColor'"P_ImpactHit:ParticleModuleColor_1"'
+         Modules(3)=ParticleModuleColorScaleOverLife'"P_ImpactHit:ParticleModuleColorScaleOverLife_2"'
+         Modules(4)=ParticleModuleColorScaleOverLife'"P_ImpactHit:ParticleModuleColorScaleOverLife_3"'
+         Modules(5)=ParticleModuleSubUV'"P_ImpactHit:ParticleModuleSubUV_1"'
+         Modules(6)=ParticleModuleParameterDynamic'"P_ImpactHit:ParticleModuleParameterDynamic_4"'
+         Modules(7)=ParticleModuleVelocity'"P_ImpactHit:ParticleModuleVelocity_1"'
+         Modules(8)=ParticleModuleRotation'"P_ImpactHit:ParticleModuleRotation_0"'
+         Modules(9)=ParticleModuleAcceleration'"P_ImpactHit:ParticleModuleAcceleration_0"'
+         Modules(10)=ParticleModuleSizeMultiplyLife'"P_ImpactHit:ParticleModuleSizeMultiplyLife_2"'
+         Modules(11)=ParticleModuleLocation'"P_ImpactHit:ParticleModuleLocation_0"'
+         Modules(12)=ParticleModuleAccelerationDrag'"P_ImpactHit:ParticleModuleAccelerationDrag_0"'
+         SpawnModule=ParticleModuleSpawn'"P_ImpactHit:ParticleModuleSpawn_3"'
+         PeakActiveParticles=1
+      End Object
+      Begin Object Name="ParticleLODLevel_2"
+         RequiredModule=ParticleModuleRequired'"P_ImpactHit:ParticleModuleRequired_1"'
+         Modules(0)=ParticleModuleLifetime'"P_ImpactHit:ParticleModuleLifetime_1"'
+         Modules(1)=ParticleModuleSize'"P_ImpactHit:ParticleModuleSize_1"'
+         Modules(2)=ParticleModuleColor'"P_ImpactHit:ParticleModuleColor_1"'
+         Modules(3)=ParticleModuleColorScaleOverLife'"P_ImpactHit:ParticleModuleColorScaleOverLife_2"'
+         Modules(4)=ParticleModuleColorScaleOverLife'"P_ImpactHit:ParticleModuleColorScaleOverLife_3"'
+         Modules(5)=ParticleModuleSubUV'"P_ImpactHit:ParticleModuleSubUV_1"'
+         Modules(6)=ParticleModuleParameterDynamic'"P_ImpactHit:ParticleModuleParameterDynamic_4"'
+         Modules(7)=ParticleModuleVelocity'"P_ImpactHit:ParticleModuleVelocity_1"'
+         Modules(8)=ParticleModuleRotation'"P_ImpactHit:ParticleModuleRotation_0"'
+         Modules(9)=ParticleModuleAcceleration'"P_ImpactHit:ParticleModuleAcceleration_0"'
+         Modules(10)=ParticleModuleSizeMultiplyLife'"P_ImpactHit:ParticleModuleSizeMultiplyLife_2"'
+         Modules(11)=ParticleModuleLocation'"P_ImpactHit:ParticleModuleLocation_0"'
+         Modules(12)=ParticleModuleAccelerationDrag'"P_ImpactHit:ParticleModuleAccelerationDrag_0"'
+         SpawnModule=ParticleModuleSpawn'"P_ImpactHit:ParticleModuleSpawn_2"'
+         PeakActiveParticles=3
+      End Object
+      EmitterName="ShortBurst"
+      bUseLegacySpawningBehavior=True
+      EmitterEditorColor=(B=212,G=109,R=0,A=255)
+      LODLevels(0)=ParticleLODLevel'"ParticleLODLevel_2"'
+      LODLevels(1)=ParticleLODLevel'"ParticleLODLevel_13"'
+      DetailModeBitmask=7
+   End Object
+   Begin Object Name="ParticleSpriteEmitter_14"
+      Begin Object Name="ParticleLODLevel_11"
+         bEnabled=False
+         RequiredModule=ParticleModuleRequired'"P_ImpactHit:ParticleModuleRequired_14"'
+         Modules(0)=ParticleModuleLifetime'"P_ImpactHit:ParticleModuleLifetime_17"'
+         Modules(1)=ParticleModuleSize'"P_ImpactHit:ParticleModuleSize_19"'
+         Modules(2)=ParticleModuleColor'"P_ImpactHit:ParticleModuleColor_11"'
+         Modules(3)=ParticleModuleColorScaleOverLife'"P_ImpactHit:ParticleModuleColorScaleOverLife_11"'
+         Modules(4)=ParticleModuleColorScaleOverLife'"P_ImpactHit:ParticleModuleColorScaleOverLife_12"'
+         Modules(5)=ParticleModuleSubUV'"P_ImpactHit:ParticleModuleSubUV_16"'
+         Modules(6)=ParticleModuleVelocity'"P_ImpactHit:ParticleModuleVelocity_10"'
+         Modules(7)=ParticleModuleRotation'"P_ImpactHit:ParticleModuleRotation_12"'
+         Modules(8)=ParticleModuleAcceleration'"P_ImpactHit:ParticleModuleAcceleration_4"'
+         Modules(9)=ParticleModuleSizeMultiplyLife'"P_ImpactHit:ParticleModuleSizeMultiplyLife_13"'
+         Modules(10)=ParticleModuleLocation'"P_ImpactHit:ParticleModuleLocation_3"'
+         Modules(11)=ParticleModuleAccelerationDrag'"P_ImpactHit:ParticleModuleAccelerationDrag_2"'
+         Modules(12)=ParticleModuleCameraOffset'"P_ImpactHit:ParticleModuleCameraOffset_4"'
+         SpawnModule=ParticleModuleSpawn'"P_ImpactHit:ParticleModuleSpawn_16"'
+         PeakActiveParticles=3
+      End Object
+      Begin Object Name="ParticleLODLevel_12"
+         Level=1
+         RequiredModule=ParticleModuleRequired'"P_ImpactHit:ParticleModuleRequired_14"'
+         Modules(0)=ParticleModuleLifetime'"P_ImpactHit:ParticleModuleLifetime_17"'
+         Modules(1)=ParticleModuleSize'"P_ImpactHit:ParticleModuleSize_19"'
+         Modules(2)=ParticleModuleColor'"P_ImpactHit:ParticleModuleColor_11"'
+         Modules(3)=ParticleModuleColorScaleOverLife'"P_ImpactHit:ParticleModuleColorScaleOverLife_11"'
+         Modules(4)=ParticleModuleColorScaleOverLife'"P_ImpactHit:ParticleModuleColorScaleOverLife_12"'
+         Modules(5)=ParticleModuleSubUV'"P_ImpactHit:ParticleModuleSubUV_16"'
+         Modules(6)=ParticleModuleVelocity'"P_ImpactHit:ParticleModuleVelocity_10"'
+         Modules(7)=ParticleModuleRotation'"P_ImpactHit:ParticleModuleRotation_12"'
+         Modules(8)=ParticleModuleAcceleration'"P_ImpactHit:ParticleModuleAcceleration_4"'
+         Modules(9)=ParticleModuleSizeMultiplyLife'"P_ImpactHit:ParticleModuleSizeMultiplyLife_13"'
+         Modules(10)=ParticleModuleLocation'"P_ImpactHit:ParticleModuleLocation_3"'
+         Modules(11)=ParticleModuleAccelerationDrag'"P_ImpactHit:ParticleModuleAccelerationDrag_2"'
+         Modules(12)=ParticleModuleCameraOffset'"P_ImpactHit:ParticleModuleCameraOffset_4"'
+         SpawnModule=ParticleModuleSpawn'"P_ImpactHit:ParticleModuleSpawn_1"'
+         PeakActiveParticles=1
+      End Object
+      EmitterName="ShortBurst"
+      bUseLegacySpawningBehavior=True
+      EmitterEditorColor=(B=0,G=115,R=209,A=255)
+      LODLevels(0)=ParticleLODLevel'"ParticleLODLevel_11"'
+      LODLevels(1)=ParticleLODLevel'"ParticleLODLevel_12"'
+      DetailModeBitmask=7
+   End Object
+   Begin Object Name="ParticleSpriteEmitter_16"
+      Begin Object Name="ParticleLODLevel_0"
+         bEnabled=False
+         RequiredModule=ParticleModuleRequired'"P_ImpactHit:ParticleModuleRequired_16"'
+         Modules(0)=ParticleModuleLifetime'"P_ImpactHit:ParticleModuleLifetime_16"'
+         Modules(1)=ParticleModuleSize'"P_ImpactHit:ParticleModuleSize_16"'
+         Modules(2)=ParticleModuleColor'"P_ImpactHit:ParticleModuleColor_16"'
+         Modules(3)=ParticleModuleColorScaleOverLife'"P_ImpactHit:ParticleModuleColorScaleOverLife_8"'
+         Modules(4)=ParticleModuleColorScaleOverLife'"P_ImpactHit:ParticleModuleColorScaleOverLife_9"'
+         Modules(5)=ParticleModuleSubUV'"P_ImpactHit:ParticleModuleSubUV_3"'
+         Modules(6)=ParticleModuleParameterDynamic'"P_ImpactHit:ParticleModuleParameterDynamic_2"'
+         Modules(7)=ParticleModuleVelocity'"P_ImpactHit:ParticleModuleVelocity_4"'
+         Modules(8)=ParticleModuleAcceleration'"P_ImpactHit:ParticleModuleAcceleration_2"'
+         Modules(9)=ParticleModuleRotation'"P_ImpactHit:ParticleModuleRotation_8"'
+         Modules(10)=ParticleModuleSizeMultiplyLife'"P_ImpactHit:ParticleModuleSizeMultiplyLife_6"'
+         Modules(11)=ParticleModuleLocation'"P_ImpactHit:ParticleModuleLocation_2"'
+         Modules(12)=ParticleModuleAccelerationDrag'"P_ImpactHit:ParticleModuleAccelerationDrag_3"'
+         Modules(13)=ParticleModuleCameraOffset'"P_ImpactHit:ParticleModuleCameraOffset_2"'
+         SpawnModule=ParticleModuleSpawn'"P_ImpactHit:ParticleModuleSpawn_21"'
+         PeakActiveParticles=3
+      End Object
+      Begin Object Name="ParticleLODLevel_16"
+         Level=1
+         RequiredModule=ParticleModuleRequired'"P_ImpactHit:ParticleModuleRequired_16"'
+         Modules(0)=ParticleModuleLifetime'"P_ImpactHit:ParticleModuleLifetime_16"'
+         Modules(1)=ParticleModuleSize'"P_ImpactHit:ParticleModuleSize_16"'
+         Modules(2)=ParticleModuleColor'"P_ImpactHit:ParticleModuleColor_16"'
+         Modules(3)=ParticleModuleColorScaleOverLife'"P_ImpactHit:ParticleModuleColorScaleOverLife_8"'
+         Modules(4)=ParticleModuleColorScaleOverLife'"P_ImpactHit:ParticleModuleColorScaleOverLife_9"'
+         Modules(5)=ParticleModuleSubUV'"P_ImpactHit:ParticleModuleSubUV_3"'
+         Modules(6)=ParticleModuleParameterDynamic'"P_ImpactHit:ParticleModuleParameterDynamic_2"'
+         Modules(7)=ParticleModuleVelocity'"P_ImpactHit:ParticleModuleVelocity_4"'
+         Modules(8)=ParticleModuleAcceleration'"P_ImpactHit:ParticleModuleAcceleration_2"'
+         Modules(9)=ParticleModuleRotation'"P_ImpactHit:ParticleModuleRotation_8"'
+         Modules(10)=ParticleModuleSizeMultiplyLife'"P_ImpactHit:ParticleModuleSizeMultiplyLife_6"'
+         Modules(11)=ParticleModuleLocation'"P_ImpactHit:ParticleModuleLocation_2"'
+         Modules(12)=ParticleModuleAccelerationDrag'"P_ImpactHit:ParticleModuleAccelerationDrag_3"'
+         Modules(13)=ParticleModuleCameraOffset'"P_ImpactHit:ParticleModuleCameraOffset_2"'
+         SpawnModule=ParticleModuleSpawn'"P_ImpactHit:ParticleModuleSpawn_7"'
+         PeakActiveParticles=1
+      End Object
+      EmitterName="LongResidual"
+      bUseLegacySpawningBehavior=True
+      EmitterEditorColor=(B=225,G=69,R=0,A=255)
+      LODLevels(0)=ParticleLODLevel'"ParticleLODLevel_0"'
+      LODLevels(1)=ParticleLODLevel'"ParticleLODLevel_16"'
+      DetailModeBitmask=7
+   End Object
+   Begin Object Name="ParticleSpriteEmitter_2"
+      Begin Object Name="ParticleLODLevel_15"
+         Level=1
+         RequiredModule=ParticleModuleRequired'"P_ImpactHit:ParticleModuleRequired_2"'
+         Modules(0)=ParticleModuleLifetime'"P_ImpactHit:ParticleModuleLifetime_2"'
+         Modules(1)=ParticleModuleSize'"P_ImpactHit:ParticleModuleSize_2"'
+         Modules(2)=ParticleModuleColor'"P_ImpactHit:ParticleModuleColor_2"'
+         Modules(3)=ParticleModuleColorScaleOverLife'"P_ImpactHit:ParticleModuleColorScaleOverLife_4"'
+         Modules(4)=ParticleModuleColorScaleOverLife'"P_ImpactHit:ParticleModuleColorScaleOverLife_5"'
+         Modules(5)=ParticleModuleSubUV'"P_ImpactHit:ParticleModuleSubUV_2"'
+         Modules(6)=ParticleModuleParameterDynamic'"P_ImpactHit:ParticleModuleParameterDynamic_6"'
+         Modules(7)=ParticleModuleVelocity'"P_ImpactHit:ParticleModuleVelocity_2"'
+         Modules(8)=ParticleModuleRotation'"P_ImpactHit:ParticleModuleRotation_1"'
+         Modules(9)=ParticleModuleAcceleration'"P_ImpactHit:ParticleModuleAcceleration_1"'
+         Modules(10)=ParticleModuleSizeMultiplyLife'"P_ImpactHit:ParticleModuleSizeMultiplyLife_3"'
+         Modules(11)=ParticleModuleLocation'"P_ImpactHit:ParticleModuleLocation_1"'
+         Modules(12)=ParticleModuleAccelerationDrag'"P_ImpactHit:ParticleModuleAccelerationDrag_1"'
+         Modules(13)=ParticleModuleCameraOffset'"P_ImpactHit:ParticleModuleCameraOffset_1"'
+         SpawnModule=ParticleModuleSpawn'"P_ImpactHit:ParticleModuleSpawn_6"'
+         PeakActiveParticles=1
+      End Object
+      Begin Object Name="ParticleLODLevel_4"
+         RequiredModule=ParticleModuleRequired'"P_ImpactHit:ParticleModuleRequired_2"'
+         Modules(0)=ParticleModuleLifetime'"P_ImpactHit:ParticleModuleLifetime_2"'
+         Modules(1)=ParticleModuleSize'"P_ImpactHit:ParticleModuleSize_2"'
+         Modules(2)=ParticleModuleColor'"P_ImpactHit:ParticleModuleColor_2"'
+         Modules(3)=ParticleModuleColorScaleOverLife'"P_ImpactHit:ParticleModuleColorScaleOverLife_4"'
+         Modules(4)=ParticleModuleColorScaleOverLife'"P_ImpactHit:ParticleModuleColorScaleOverLife_5"'
+         Modules(5)=ParticleModuleSubUV'"P_ImpactHit:ParticleModuleSubUV_2"'
+         Modules(6)=ParticleModuleParameterDynamic'"P_ImpactHit:ParticleModuleParameterDynamic_6"'
+         Modules(7)=ParticleModuleVelocity'"P_ImpactHit:ParticleModuleVelocity_2"'
+         Modules(8)=ParticleModuleRotation'"P_ImpactHit:ParticleModuleRotation_1"'
+         Modules(9)=ParticleModuleAcceleration'"P_ImpactHit:ParticleModuleAcceleration_1"'
+         Modules(10)=ParticleModuleSizeMultiplyLife'"P_ImpactHit:ParticleModuleSizeMultiplyLife_3"'
+         Modules(11)=ParticleModuleLocation'"P_ImpactHit:ParticleModuleLocation_1"'
+         Modules(12)=ParticleModuleAccelerationDrag'"P_ImpactHit:ParticleModuleAccelerationDrag_1"'
+         Modules(13)=ParticleModuleCameraOffset'"P_ImpactHit:ParticleModuleCameraOffset_1"'
+         SpawnModule=ParticleModuleSpawn'"P_ImpactHit:ParticleModuleSpawn_4"'
+         PeakActiveParticles=4
+      End Object
+      EmitterName="LongResidual"
+      bUseLegacySpawningBehavior=True
+      EmitterEditorColor=(B=184,G=153,R=0,A=255)
+      LODLevels(0)=ParticleLODLevel'"ParticleLODLevel_4"'
+      LODLevels(1)=ParticleLODLevel'"ParticleLODLevel_15"'
+      DetailModeBitmask=7
+   End Object
+   Begin Object Name="ParticleSpriteEmitter_3"
+      Begin Object Name="ParticleLODLevel_0"
+         RequiredModule=ParticleModuleRequired'"P_ImpactHit:ParticleModuleRequired_3"'
+         Modules(0)=ParticleModuleLifetime'"P_ImpactHit:ParticleModuleLifetime_3"'
+         Modules(1)=ParticleModuleSize'"P_ImpactHit:ParticleModuleSize_3"'
+         Modules(2)=ParticleModuleLocationPrimitiveSphere'"P_ImpactHit:ParticleModuleLocationPrimitiveSphere_0"'
+         Modules(3)=ParticleModuleColor'"P_ImpactHit:ParticleModuleColor_3"'
+         Modules(4)=ParticleModuleVelocity'"P_ImpactHit:ParticleModuleVelocity_3"'
+         Modules(5)=ParticleModuleColorScaleOverLife'"P_ImpactHit:ParticleModuleColorScaleOverLife_6"'
+         Modules(6)=ParticleModuleAccelerationConstant'"P_ImpactHit:ParticleModuleAccelerationConstant_0"'
+         SpawnModule=ParticleModuleSpawn'"P_ImpactHit:ParticleModuleSpawn_10"'
+         PeakActiveParticles=12
+      End Object
+      Begin Object Name="ParticleLODLevel_1"
+         Level=1
+         RequiredModule=ParticleModuleRequired'"P_ImpactHit:ParticleModuleRequired_3"'
+         Modules(0)=ParticleModuleLifetime'"P_ImpactHit:ParticleModuleLifetime_3"'
+         Modules(1)=ParticleModuleSize'"P_ImpactHit:ParticleModuleSize_3"'
+         Modules(2)=ParticleModuleLocationPrimitiveSphere'"P_ImpactHit:ParticleModuleLocationPrimitiveSphere_0"'
+         Modules(3)=ParticleModuleColor'"P_ImpactHit:ParticleModuleColor_3"'
+         Modules(4)=ParticleModuleVelocity'"P_ImpactHit:ParticleModuleVelocity_3"'
+         Modules(5)=ParticleModuleColorScaleOverLife'"P_ImpactHit:ParticleModuleColorScaleOverLife_6"'
+         Modules(6)=ParticleModuleAccelerationConstant'"P_ImpactHit:ParticleModuleAccelerationConstant_0"'
+         SpawnModule=ParticleModuleSpawn'"P_ImpactHit:ParticleModuleSpawn_12"'
+         PeakActiveParticles=1
+      End Object
+      EmitterName="Burst_Out_CPU"
+      bUseLegacySpawningBehavior=True
+      EmitterEditorColor=(B=164,G=0,R=176,A=255)
+      LODLevels(0)=ParticleLODLevel'"ParticleLODLevel_0"'
+      LODLevels(1)=ParticleLODLevel'"ParticleLODLevel_1"'
+      DetailModeBitmask=7
+   End Object
+   Begin Object Name="ParticleModuleAccelerationConstant_0"
+      Acceleration=(X=0.000000,Y=0.000000,Z=-980.000000)
+      bAlwaysInWorldSpace=True
+      LODValidity=3
+      ModuleEditorColor=(B=0,G=64,R=226,A=255)
+   End Object
+   Begin Object Name="ParticleModuleAccelerationConstant_2"
+      Acceleration=(X=0.000000,Y=0.000000,Z=-980.000000)
+      bAlwaysInWorldSpace=True
+      LODValidity=3
+      ModuleEditorColor=(B=191,G=145,R=0,A=255)
+   End Object
+   Begin Object Name="ParticleModuleSizeScaleBySpeed_0"
+      SpeedScale=(X=0.050000,Y=0.050000)
+      MaxScale=(X=1.000000,Y=4.000000)
+      LODValidity=3
+      ModuleEditorColor=(B=169,G=171,R=0,A=255)
+   End Object
+   Begin Object Name="ParticleModuleTypeDataGpu_0"
+      EmitterInfo=(RequiredModule=ParticleModuleRequired'"P_ImpactHit:ParticleModuleRequired_0"',SpawnModule=ParticleModuleSpawn'"P_ImpactHit:ParticleModuleSpawn_0"',SpawnModules=(ParticleModuleRequired'"P_ImpactHit:ParticleModuleRequired_0"',ParticleModuleLifetime'"P_ImpactHit:ParticleModuleLifetime_0"',ParticleModuleSize'"P_ImpactHit:ParticleModuleSize_0"',ParticleModuleLocationPrimitiveSphere'"P_ImpactHit:ParticleModuleLocationPrimitiveSphere_1"',ParticleModuleVelocity'"P_ImpactHit:ParticleModuleVelocity_0"'),ConstantAcceleration=(X=0.000000,Y=0.000000,Z=-980.000000),InvMaxSize=(X=0.333333,Y=0.333333),InvRotationRateScale=0.500000,MaxLifetime=2.000000,MaxParticleCount=101,ScreenAlignment=PSA_Velocity,bEnableCollision=True)
+      ResourceData=(QuantizedColorSamples=((B=0,G=0,R=0,A=255),(B=0,G=0,R=0,A=0)),ColorScale=(X=0.000000,Y=0.000000,Z=0.000000,W=1.000000),ColorBias=(X=10.000000,Y=5.000000,Z=2.000000,W=0.000000),MiscBias=(X=3.000000,Y=3.000000,Z=0.000000,W=0.000000),SimulationAttrCurveBias=(X=1.000000,Y=1.000000,Z=1.000000,W=1.000000),SubImageSize=(X=1.000000,Y=1.000000,Z=1.000000,W=1.000000),SizeBySpeed=(X=0.050000,Y=0.050000,Z=1.000000,W=4.000000),ConstantAcceleration=(X=0.000000,Y=0.000000,Z=-980.000000),PerParticleVectorFieldBias=1.000000,ResilienceBias=0.100000,CollisionRadiusScale=0.500000,OneMinusFriction=0.750000,RotationRateScale=2.000000,ScreenAlignment=PSA_Velocity)
+      bClearExistingParticlesOnInit=True
+      LODValidity=3
+      ModuleEditorColor=(B=224,G=0,R=79,A=255)
+   End Object
+   Emitters(0)=ParticleSpriteEmitter'"ParticleSpriteEmitter_14"'
+   Emitters(1)=ParticleSpriteEmitter'"ParticleSpriteEmitter_1"'
+   Emitters(2)=ParticleSpriteEmitter'"ParticleSpriteEmitter_2"'
+   Emitters(3)=ParticleSpriteEmitter'"ParticleSpriteEmitter_16"'
+   Emitters(4)=ParticleSpriteEmitter'"ParticleSpriteEmitter_0"'
+   Emitters(5)=ParticleSpriteEmitter'"ParticleSpriteEmitter_3"'
+   CurveEdSetup=InterpCurveEdSetup'"InterpCurveEdSetup_0"'
+   LODDistances(0)=0.000000
+   LODDistances(1)=1000.000000
+   LODSettings(1)=()
+   FixedRelativeBoundingBox=(Min=(X=-400.000000,Y=-400.000000,Z=-400.000000),Max=(X=400.000000,Y=400.000000,Z=400.000000),IsValid=1)
+   bUseFixedRelativeBoundingBox=True
+   bShouldResetPeakCounts=True
+   ThumbnailImage=Texture2D'"ThumbnailTexture"'
+   LODMethod=PARTICLESYSTEMLODMETHOD_ActivateAutomatic
+End Object
