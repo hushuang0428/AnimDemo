@@ -1,0 +1,24 @@
+Begin Object Class=/Script/Engine.MaterialInstanceConstant Name="MI_Bullet"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   ParameterStateId=2AA2178C4F6A32C9725EC4986432DA7B
+   Parent=Material'"/Game/MPS_V2/Game/Commons/Materials/Masters/M_Simple.M_Simple"'
+   ScalarParameterValues(0)=(ParameterInfo=(Name="Roughness"),ParameterValue=0.250000,ExpressionGUID=9F6DEA2C4F9B3BB4B846BFAAE9636A33)
+   ScalarParameterValues(1)=(ParameterInfo=(Name="RefractionDepthBias"))
+   TextureParameterValues(0)=(ParameterInfo=(Name="Albedo"),ParameterValue=Texture2D'"/Game/MPS_V2/Game/Commons/Textures/bullet_A.bullet_A"',ExpressionGUID=FC306C1E48D29E5D5A0BB2B663249864)
+   TextureParameterValues(1)=(ParameterInfo=(Name="Normal"),ParameterValue=Texture2D'"/Game/MPS_V2/Game/Commons/Textures/bullet_N.bullet_N"',ExpressionGUID=2C2D765C4E502AD9E2EAE19B24896483)
+   TextureParameterValues(2)=(ParameterInfo=(Name="Surface"),ParameterValue=Texture2D'"/Game/MPS_V2/Game/Commons/Textures/bullet_S.bullet_S"',ExpressionGUID=27CD6655430B07C9BBED3E823ADD44BA)
+   BasePropertyOverrides=(OpacityMaskClipValue=0.333300)
+   ReferencedTextureGuids(0)=4DFEBF0742338EFFA18CB3A274686DDF
+   ReferencedTextureGuids(1)=2DAA5AB64C2704765E546AA288FB40DB
+   ReferencedTextureGuids(2)=3081AA324F45EDB5E619E3B103311599
+   CachedReferencedTextures(0)=Texture2D'"/Game/MPS_V2/Level/Materials/Textures/Basics/Blank_A.Blank_A"'
+   CachedReferencedTextures(1)=Texture2D'"/Game/MPS_V2/Level/Materials/Textures/Basics/Blank_N.Blank_N"'
+   TextureStreamingDataVersion=1
+   TextureStreamingData(0)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="bullet_N",TextureReference=/Game/MPS_V2/Game/Commons/Textures/bullet_N.bullet_N)
+   TextureStreamingData(1)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="bullet_S",TextureReference=/Game/MPS_V2/Game/Commons/Textures/bullet_S.bullet_S)
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=51D82B4E4EBEB85CE3A516907E988499
+End Object
